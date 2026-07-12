@@ -1,0 +1,4 @@
+reportlab>=4.0
+pymupdf>=1.23
+fonttools>=4.40
+pypdf>=4.0

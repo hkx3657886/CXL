@@ -1,0 +1,2198 @@
+[
+  {
+    "term": "AAD",
+    "alias": null,
+    "definition_en": "Additional Authentication Data - data that is integrity protected but not encrypted",
+    "definition_zh": "附加认证数据（Additional Authentication Data）——完整性受保护但不加密的数据"
+  },
+  {
+    "term": "Accelerator",
+    "alias": "Acc",
+    "definition_en": "Devices that may be used by software running on Host processors to offload or perform any type of compute or I/O task. Examples of accelerators include programmable agents (e.g., GPU/GPGPU), fixed- function agents, or reconfigurable agents such as FPGAs.",
+    "definition_zh": "加速器：可由主机处理器上运行的软件用于卸载或执行任意类型计算或 I/O 任务的设备。加速器示例包括可编程代理（如 GPU/GPGPU）、固定功能代理，或可重构代理（如 FPGA）。"
+  },
+  {
+    "term": "ACL",
+    "alias": null,
+    "definition_en": "Access Control List",
+    "definition_zh": "访问控制列表（Access Control List）"
+  },
+  {
+    "term": "ACPI",
+    "alias": null,
+    "definition_en": "Advanced Configuration and Power Interface",
+    "definition_zh": "高级配置与电源接口（Advanced Configuration and Power Interface）"
+  },
+  {
+    "term": "ACS",
+    "alias": null,
+    "definition_en": "Access Control Services as defined in PCIe Base Specification",
+    "definition_zh": "访问控制服务（Access Control Services），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "ADF",
+    "alias": null,
+    "definition_en": "All-Data Flit",
+    "definition_zh": "全数据 Flit（All-Data Flit）"
+  },
+  {
+    "term": "AER",
+    "alias": null,
+    "definition_en": "Advanced Error Reporting as defined in PCIe Base Specification",
+    "definition_zh": "高级错误报告（Advanced Error Reporting），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "AES-GCM",
+    "alias": null,
+    "definition_en": "Advanced Encryption Standard-Galois Counter Mode as defined in NIST* publication [AES-GCM]",
+    "definition_zh": "高级加密标准-伽罗瓦计数器模式（AES-GCM），如 NIST* 出版物 [AES-GCM] 所定义"
+  },
+  {
+    "term": "AIC",
+    "alias": null,
+    "definition_en": "Add In Card",
+    "definition_zh": "附加卡（Add In Card）"
+  },
+  {
+    "term": "Ak",
+    "alias": null,
+    "definition_en": "Acknowledgment (bit/field name)",
+    "definition_zh": "确认（Acknowledgment，位/字段名）"
+  },
+  {
+    "term": "ALMP",
+    "alias": null,
+    "definition_en": "ARB/MUX Link Management Packet",
+    "definition_zh": "ARB/MUX 链路管理包（ARB/MUX Link Management Packet）"
+  },
+  {
+    "term": "AP",
+    "alias": null,
+    "definition_en": "Auto Precharge",
+    "definition_zh": "自动预充电（Auto Precharge）"
+  },
+  {
+    "term": "ARB/MUX",
+    "alias": null,
+    "definition_en": "Arbiter/Multiplexer",
+    "definition_zh": "仲裁器/复用器（Arbiter/Multiplexer）"
+  },
+  {
+    "term": "ARI",
+    "alias": null,
+    "definition_en": "Alternate Routing ID as defined in PCIe Base Specification.",
+    "definition_zh": "备用路由 ID（Alternate Routing ID），如 PCIe 基础规范所定义。"
+  },
+  {
+    "term": "ASI",
+    "alias": null,
+    "definition_en": "Advanced Switching Interconnect",
+    "definition_zh": "高级交换互连（Advanced Switching Interconnect）"
+  },
+  {
+    "term": "ASL",
+    "alias": null,
+    "definition_en": "ACPI Source Language as defined in ACPI Specification",
+    "definition_zh": "ACPI 源语言（ACPI Source Language），如 ACPI 规范所定义"
+  },
+  {
+    "term": "ASPM",
+    "alias": null,
+    "definition_en": "Active State Power Management",
+    "definition_zh": "主动状态电源管理（Active State Power Management）"
+  },
+  {
+    "term": "ATS",
+    "alias": null,
+    "definition_en": "Address Translation Services as defined in PCIe Base Specification",
+    "definition_zh": "地址转换服务（Address Translation Services），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "Attestation",
+    "alias": null,
+    "definition_en": "Process of providing a digital signature for a set of measurements from a device and verifying those signatures and measurements on a host.",
+    "definition_zh": "证明：为设备的一组度量提供数字签名，并在主机上验证这些签名与度量的过程。"
+  },
+  {
+    "term": "Authentication",
+    "alias": null,
+    "definition_en": "Process of determining whether an entity is who or what it claims to be.",
+    "definition_zh": "认证：确定某个实体是否为其声称的身份或对象的过程。"
+  },
+  {
+    "term": "BAR",
+    "alias": null,
+    "definition_en": "Base Address Register as defined in PCIe Base Specification",
+    "definition_zh": "基址寄存器（Base Address Register），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "_BBN",
+    "alias": null,
+    "definition_en": "Base Bus Number as defined in ACPI Specification",
+    "definition_zh": "基总线号（Base Bus Number），如 ACPI 规范所定义"
+  },
+  {
+    "term": "BCC",
+    "alias": null,
+    "definition_en": "Base Class Code as defined in PCIe Base Specification",
+    "definition_zh": "基类代码（Base Class Code），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "BDF",
+    "alias": null,
+    "definition_en": "Bus Device Function",
+    "definition_zh": "总线/设备/功能（Bus Device Function）"
+  },
+  {
+    "term": "BE",
+    "alias": null,
+    "definition_en": "Byte Enable as defined in PCIe Base Specification",
+    "definition_zh": "字节使能（Byte Enable），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "BEI",
+    "alias": null,
+    "definition_en": "BAR Equivalent Indicator",
+    "definition_zh": "BAR 等价指示符（BAR Equivalent Indicator）"
+  },
+  {
+    "term": "BEP",
+    "alias": null,
+    "definition_en": "Byte-Enables Present",
+    "definition_zh": "存在字节使能（Byte-Enables Present）"
+  },
+  {
+    "term": "BI",
+    "alias": null,
+    "definition_en": "Back-Invalidate",
+    "definition_zh": "反向使无效（Back-Invalidate）"
+  },
+  {
+    "term": "Bias Flip",
+    "alias": null,
+    "definition_en": "Bias refers to coherence tracking of HDM-D* memory regions by the owning device to indicate that the host may have a cache copy. The Bias Flip is a process used to change the bias state that indicates the host has a cached copy of the line (Bias=Host) by invalidating the cache state for the corresponding address(es) in the host such that the device has exclusive access (Bias=Device).",
+    "definition_zh": "Bias（偏置）指拥有设备对 HDM-D* 内存区域进行一致性跟踪，以指示主机可能持有缓存副本。Bias Flip（偏置翻转）是一种用于改变偏置状态的过程：当状态指示主机持有该行的缓存副本（Bias=Host）时，通过使主机中对应地址的缓存状态无效，使设备获得独占访问（Bias=Device）。"
+  },
+  {
+    "term": "BIR",
+    "alias": null,
+    "definition_en": "BAR Indicator Register as defined in PCIe Base Specification",
+    "definition_zh": "BAR 指示寄存器（BAR Indicator Register），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "BIRsp",
+    "alias": null,
+    "definition_en": "Back-Invalidate Response",
+    "definition_zh": "反向使无效响应（Back-Invalidate Response）"
+  },
+  {
+    "term": "BISnp",
+    "alias": null,
+    "definition_en": "Back-Invalidate Snoop",
+    "definition_zh": "反向使无效探听（Back-Invalidate Snoop）"
+  },
+  {
+    "term": "BMC",
+    "alias": null,
+    "definition_en": "Baseboard Management Controller",
+    "definition_zh": "基板管理控制器（Baseboard Management Controller）"
+  },
+  {
+    "term": "BME",
+    "alias": null,
+    "definition_en": "Bus Master Enable",
+    "definition_zh": "总线主控使能（Bus Master Enable）"
+  },
+  {
+    "term": "BW",
+    "alias": null,
+    "definition_en": "Bandwidth",
+    "definition_zh": "带宽（Bandwidth）"
+  },
+  {
+    "term": "CA",
+    "alias": null,
+    "definition_en": "Certificate Authority; Congestion Avoidance",
+    "definition_zh": "证书颁发机构（Certificate Authority）；拥塞避免（Congestion Avoidance）"
+  },
+  {
+    "term": "CAM",
+    "alias": null,
+    "definition_en": "Content Addressable Memory",
+    "definition_zh": "内容可寻址存储器（Content Addressable Memory）"
+  },
+  {
+    "term": "CAS",
+    "alias": null,
+    "definition_en": "Column Address Strobe",
+    "definition_zh": "列地址选通（Column Address Strobe）"
+  },
+  {
+    "term": "_CBR",
+    "alias": null,
+    "definition_en": "CXL Host Bridge Register Info as defined in ACPI Specification",
+    "definition_zh": "CXL 主机桥寄存器信息，如 ACPI 规范所定义"
+  },
+  {
+    "term": "CCI",
+    "alias": null,
+    "definition_en": "Component Command Interface",
+    "definition_zh": "组件命令接口（Component Command Interface）"
+  },
+  {
+    "term": "CCID",
+    "alias": null,
+    "definition_en": "CXL Cache ID",
+    "definition_zh": "CXL Cache ID"
+  },
+  {
+    "term": "CDAT",
+    "alias": null,
+    "definition_en": "Coherent Device Attribute Table, a table that describes performance characteristics of a CXL device or a CXL switch.",
+    "definition_zh": "一致性设备属性表（Coherent Device Attribute Table），用于描述 CXL 设备或 CXL 交换机性能特征的表。"
+  },
+  {
+    "term": "CDL",
+    "alias": null,
+    "definition_en": "CXL DevLoad",
+    "definition_zh": "CXL DevLoad"
+  },
+  {
+    "term": "CEDT",
+    "alias": null,
+    "definition_en": "CXL Early Discovery Table",
+    "definition_zh": "CXL 早期发现表（CXL Early Discovery Table）"
+  },
+  {
+    "term": "CEL",
+    "alias": null,
+    "definition_en": "Command Effects Log",
+    "definition_zh": "命令效应日志（Command Effects Log）"
+  },
+  {
+    "term": "CFMWS",
+    "alias": null,
+    "definition_en": "CXL Fixed Memory Window Structure",
+    "definition_zh": "CXL 固定内存窗口结构（CXL Fixed Memory Window Structure）"
+  },
+  {
+    "term": "CHBCR",
+    "alias": null,
+    "definition_en": "CXL Host Bridge Component Registers",
+    "definition_zh": "CXL 主机桥组件寄存器（CXL Host Bridge Component Registers）"
+  },
+  {
+    "term": "CHBS",
+    "alias": null,
+    "definition_en": "CXL Host Bridge Structure",
+    "definition_zh": "CXL 主机桥结构（CXL Host Bridge Structure）"
+  },
+  {
+    "term": "_CID",
+    "alias": null,
+    "definition_en": "Compatible ID as defined in ACPI Specification",
+    "definition_zh": "兼容 ID（Compatible ID），如 ACPI 规范所定义"
+  },
+  {
+    "term": "CIE",
+    "alias": null,
+    "definition_en": "Correctable Internal Error",
+    "definition_zh": "可纠正内部错误（Correctable Internal Error）"
+  },
+  {
+    "term": "CIKMA",
+    "alias": null,
+    "definition_en": "CXL.cachemem IDE Key Management Agent",
+    "definition_zh": "CXL.cachemem IDE 密钥管理代理（CXL.cachemem IDE Key Management Agent）"
+  },
+  {
+    "term": "CKID",
+    "alias": null,
+    "definition_en": "Context Key IDentifier passed in the protocol flit for identifying security keys utilized for memory encryption using TSP.",
+    "definition_zh": "上下文密钥标识符（Context Key IDentifier），在协议 flit 中传递，用于标识利用 TSP 进行内存加密所使用的安全密钥。"
+  },
+  {
+    "term": "CMA",
+    "alias": null,
+    "definition_en": "Component Measurement and Authentication as defined in PCIe Base Specification",
+    "definition_zh": "组件度量与认证（Component Measurement and Authentication），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "Coh",
+    "alias": null,
+    "definition_en": "Coherency",
+    "definition_zh": "一致性（Coherency）"
+  },
+  {
+    "term": "Cold reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification",
+    "definition_zh": "冷复位，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "Comprehensive Trust",
+    "alias": null,
+    "definition_en": "Security model in which every device available to the TEE is presumed to be trusted by all TEEs in the system.",
+    "definition_zh": "全面信任：一种安全模型，其中 TEE 可用的每个设备都被假定为受系统中所有 TEE 信任。"
+  },
+  {
+    "term": "CPMU",
+    "alias": null,
+    "definition_en": "CXL Performance Monitoring Unit",
+    "definition_zh": "CXL 性能监控单元（CXL Performance Monitoring Unit）"
+  },
+  {
+    "term": "CRD",
+    "alias": null,
+    "definition_en": "Credit Return(ed)",
+    "definition_zh": "信用返回（Credit Return(ed)）"
+  },
+  {
+    "term": "CQID",
+    "alias": null,
+    "definition_en": "Command Queue ID",
+    "definition_zh": "命令队列 ID（Command Queue ID）"
+  },
+  {
+    "term": "CSDS",
+    "alias": null,
+    "definition_en": "CXL System Description Structure",
+    "definition_zh": "CXL 系统描述结构（CXL System Description Structure）"
+  },
+  {
+    "term": "CSR",
+    "alias": null,
+    "definition_en": "Configuration Space register",
+    "definition_zh": "配置空间寄存器（Configuration Space register）"
+  },
+  {
+    "term": "CT",
+    "alias": null,
+    "definition_en": "Crypto Timeout",
+    "definition_zh": "加密超时（Crypto Timeout）"
+  },
+  {
+    "term": "CVME",
+    "alias": null,
+    "definition_en": "Corrected Volatile Memory Error, a corrected error associated with volatile memory.",
+    "definition_zh": "已纠正易失性内存错误（Corrected Volatile Memory Error），与易失性内存相关的已纠正错误。"
+  },
+  {
+    "term": "CXIMS",
+    "alias": null,
+    "definition_en": "CXL XOR Interleave Math Structure",
+    "definition_zh": "CXL XOR 交织数学结构（CXL XOR Interleave Math Structure）"
+  },
+  {
+    "term": "CXL",
+    "alias": null,
+    "definition_en": "Compute Express Link, a low-latency, high-bandwidth link that supports dynamic protocol muxing of coherency, memory access, and I/O protocols, thus enabling attachment of coherent accelerators or memory devices.",
+    "definition_zh": "Compute Express Link，一种低延迟、高带宽链路，支持一致性、内存访问与 I/O 协议的动态协议复用，从而支持连接一致性加速器或内存设备。"
+  },
+  {
+    "term": "CXL.cache",
+    "alias": null,
+    "definition_en": "Agent coherency protocol that supports device caching of Host memory.",
+    "definition_zh": "代理一致性协议，支持设备缓存主机内存。"
+  },
+  {
+    "term": "CXL.cachemem",
+    "alias": null,
+    "definition_en": "CXL.cache/CXL.mem",
+    "definition_zh": "CXL.cache/CXL.mem"
+  },
+  {
+    "term": "CXL.io",
+    "alias": null,
+    "definition_en": "PCIe-based non-coherent I/O protocol with enhancements for accelerator support.",
+    "definition_zh": "基于 PCIe 的非一致性 I/O 协议，并针对加速器支持进行了增强。"
+  },
+  {
+    "term": "CXL.mem",
+    "alias": null,
+    "definition_en": "Memory access protocol that supports device-attached memory.",
+    "definition_zh": "内存访问协议，支持设备附属内存。"
+  },
+  {
+    "term": "CXL Memory Device",
+    "alias": null,
+    "definition_en": "CXL device with a specific Class Code as defined in Section 8.1.12.1.",
+    "definition_zh": "具有特定类代码的 CXL 设备，如第 8.1.12.1 节所定义。"
+  },
+  {
+    "term": "D2H",
+    "alias": null,
+    "definition_en": "Device to Host",
+    "definition_zh": "设备到主机（Device to Host）"
+  },
+  {
+    "term": "DAPM",
+    "alias": null,
+    "definition_en": "Deepest Allowable Power Management state",
+    "definition_zh": "允许的最深电源管理状态（Deepest Allowable Power Management state）"
+  },
+  {
+    "term": "DC",
+    "alias": null,
+    "definition_en": "Dynamic Capacity",
+    "definition_zh": "动态容量（Dynamic Capacity）"
+  },
+  {
+    "term": "DCD",
+    "alias": null,
+    "definition_en": "Dynamic Capacity Device",
+    "definition_zh": "动态容量设备（Dynamic Capacity Device）"
+  },
+  {
+    "term": "DCOH",
+    "alias": null,
+    "definition_en": "Device Coherency agent on the device that is responsible for resolving coherency with respect to device caches and managing Bias states.",
+    "definition_zh": "设备一致性代理（Device Coherency agent）：设备上负责相对设备缓存解决一致性并管理 Bias 状态的代理。"
+  },
+  {
+    "term": "DDR",
+    "alias": null,
+    "definition_en": "Double Data Rate",
+    "definition_zh": "双倍数据速率（Double Data Rate）"
+  },
+  {
+    "term": "DH",
+    "alias": null,
+    "definition_en": "Data Header",
+    "definition_zh": "数据头（Data Header）"
+  },
+  {
+    "term": "DHSW-FM",
+    "alias": null,
+    "definition_en": "Dual Host, Fabric Managed, Switch Attached SLD EP",
+    "definition_zh": "双主机、结构管理、交换机连接的 SLD 端点"
+  },
+  {
+    "term": "DHSW-FM-MLD",
+    "alias": null,
+    "definition_en": "Dual Host, Fabric Managed, Switch Attached MLD EP",
+    "definition_zh": "双主机、结构管理、交换机连接的 MLD 端点"
+  },
+  {
+    "term": "DLLP",
+    "alias": null,
+    "definition_en": "Data Link Layer Packet as defined in PCIe Base Specification",
+    "definition_zh": "数据链路层包（Data Link Layer Packet），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "DM",
+    "alias": null,
+    "definition_en": "Data Mask",
+    "definition_zh": "数据掩码（Data Mask）"
+  },
+  {
+    "term": "DMP",
+    "alias": null,
+    "definition_en": "Device Media Partition",
+    "definition_zh": "设备介质分区（Device Media Partition）"
+  },
+  {
+    "term": "DMTF",
+    "alias": null,
+    "definition_en": "Distributed Management Task Force",
+    "definition_zh": "分布式管理任务组（Distributed Management Task Force）"
+  },
+  {
+    "term": "DOE",
+    "alias": null,
+    "definition_en": "Data Object Exchange as defined in PCIe Base Specification",
+    "definition_zh": "数据对象交换（Data Object Exchange），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "Domain",
+    "alias": null,
+    "definition_en": "Set of host ports and devices within a single coherent HPA space",
+    "definition_zh": "单一一致性 HPA 空间内的一组主机端口与设备"
+  },
+  {
+    "term": "Downstream ES",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, an Edge Switch other than the Host ES.",
+    "definition_zh": "在单个 VH 的上下文中，除 Host ES 以外的边缘交换机。"
+  },
+  {
+    "term": "Downstream Port",
+    "alias": null,
+    "definition_en": "Physical port that can be a root port or a downstream switch port or an RCH Downstream Port",
+    "definition_zh": "物理端口，可以是根端口、下游交换机端口或 RCH 下游端口"
+  },
+  {
+    "term": "DPA",
+    "alias": null,
+    "definition_en": "Device Physical Address. DPA forms a device-scoped flat address space. An LD-FAM device presents a distinct DPA space per LD. A G-FAM device presents the same DPA space to all hosts. The CXL HDM decoders or GFD decoders map HPA into DPA space.",
+    "definition_zh": "设备物理地址（Device Physical Address）。DPA 构成设备范围内的平坦地址空间。LD-FAM 设备为每个 LD 呈现不同的 DPA 空间。G-FAM 设备向所有主机呈现相同的 DPA 空间。CXL HDM 解码器或 GFD 解码器将 HPA 映射到 DPA 空间。"
+  },
+  {
+    "term": "DPC",
+    "alias": null,
+    "definition_en": "Downstream Port Containment as defined in PCIe Base Specification",
+    "definition_zh": "下游端口遏制（Downstream Port Containment），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "DPID",
+    "alias": null,
+    "definition_en": "Destination PID",
+    "definition_zh": "目的 PID（Destination PID）"
+  },
+  {
+    "term": "DRS",
+    "alias": null,
+    "definition_en": "Data Response",
+    "definition_zh": "数据响应（Data Response）"
+  },
+  {
+    "term": "DRT",
+    "alias": null,
+    "definition_en": "DPID Routing Table",
+    "definition_zh": "DPID 路由表（DPID Routing Table）"
+  },
+  {
+    "term": "DSAR",
+    "alias": null,
+    "definition_en": "Downstream Acceptance Rules",
+    "definition_zh": "下游接受规则（Downstream Acceptance Rules）"
+  },
+  {
+    "term": "_DSM",
+    "alias": null,
+    "definition_en": "Device Specific Method as defined in ACPI Specification",
+    "definition_zh": "设备特定方法（Device Specific Method），如 ACPI 规范所定义"
+  },
+  {
+    "term": "DSM",
+    "alias": null,
+    "definition_en": "Device Security Manager. A logical entity in a device that can be admitted into the TCB for a TVM and enforces security policies on the device.",
+    "definition_zh": "设备安全管理器（Device Security Manager）。设备中的逻辑实体，可被纳入 TVM 的 TCB，并在设备上强制执行安全策略。"
+  },
+  {
+    "term": "DSMAD",
+    "alias": null,
+    "definition_en": "Device Scoped Memory Affinity Domain as defined in Coherent Device Attribute Table (CDAT) Specification",
+    "definition_zh": "设备范围内存亲和域，如一致性设备属性表（CDAT）规范所定义"
+  },
+  {
+    "term": "DSMAS",
+    "alias": null,
+    "definition_en": "Device Scoped Memory Affinity Structure as defined in Coherent Device Attribute Table (CDAT) Specification",
+    "definition_zh": "设备范围内存亲和结构，如一致性设备属性表（CDAT）规范所定义"
+  },
+  {
+    "term": "DSP",
+    "alias": null,
+    "definition_en": "Downstream Switch Port",
+    "definition_zh": "下游交换机端口（Downstream Switch Port）"
+  },
+  {
+    "term": "DTLB",
+    "alias": null,
+    "definition_en": "Data Translation Lookaside Buffer",
+    "definition_zh": "数据转换旁路缓冲（Data Translation Lookaside Buffer）"
+  },
+  {
+    "term": "DTRCS",
+    "alias": null,
+    "definition_en": "Device Tracked Requestor Cache State – The requestor cache coherency state tracked by the device.",
+    "definition_zh": "设备跟踪的请求方缓存状态（Device Tracked Requestor Cache State）——由设备跟踪的请求方缓存一致性状态。"
+  },
+  {
+    "term": "DUT",
+    "alias": null,
+    "definition_en": "Device Under Test",
+    "definition_zh": "被测设备（Device Under Test）"
+  },
+  {
+    "term": "DVSEC",
+    "alias": null,
+    "definition_en": "Designated Vendor-Specific Extended Capability as defined in PCIe Base Specification",
+    "definition_zh": "指定厂商特定扩展能力（Designated Vendor-Specific Extended Capability），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "ECC",
+    "alias": null,
+    "definition_en": "Error-correcting Code",
+    "definition_zh": "纠错码（Error-correcting Code）"
+  },
+  {
+    "term": "ECN",
+    "alias": null,
+    "definition_en": "Engineering Change Notice",
+    "definition_zh": "工程变更通知（Engineering Change Notice）"
+  },
+  {
+    "term": "ECS",
+    "alias": null,
+    "definition_en": "Error Check Scrub",
+    "definition_zh": "错误检查清洗（Error Check Scrub）"
+  },
+  {
+    "term": "ECRC",
+    "alias": null,
+    "definition_en": "End-to-End CRC",
+    "definition_zh": "端到端 CRC（End-to-End CRC）"
+  },
+  {
+    "term": "EDB",
+    "alias": null,
+    "definition_en": "End Bad as defined in PCIe Base Specification",
+    "definition_zh": "坏结束（End Bad），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "Edge DSP",
+    "alias": null,
+    "definition_en": "PBR downstream switch port that connects to a device (including a GFD) or an HBR USP",
+    "definition_zh": "连接到设备（含 GFD）或 HBR USP 的 PBR 下游交换机端口"
+  },
+  {
+    "term": "Edge Port",
+    "alias": null,
+    "definition_en": "PBR switch port suitable for connecting to an RP, device, or HBR USP.",
+    "definition_zh": "适于连接 RP、设备或 HBR USP 的 PBR 交换机端口。"
+  },
+  {
+    "term": "Edge Switch (ES)",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, a PBR switch that contains one or more Edge Ports.",
+    "definition_zh": "在单个 VH 的上下文中，包含一个或多个边缘端口的 PBR 交换机。"
+  },
+  {
+    "term": "Edge USP",
+    "alias": null,
+    "definition_en": "PBR upstream switch port that connects to a root port",
+    "definition_zh": "连接到根端口的 PBR 上游交换机端口"
+  },
+  {
+    "term": "eDPC",
+    "alias": null,
+    "definition_en": "Enhanced Downstream Port Control as defined in PCIe Base Specification",
+    "definition_zh": "增强下游端口控制（Enhanced Downstream Port Control），如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "EDS",
+    "alias": null,
+    "definition_en": "End of Data Stream",
+    "definition_zh": "数据流结束（End of Data Stream）"
+  },
+  {
+    "term": "EFN",
+    "alias": null,
+    "definition_en": "Event Firmware Notification",
+    "definition_zh": "事件固件通知（Event Firmware Notification）"
+  },
+  {
+    "term": "EIEOS",
+    "alias": null,
+    "definition_en": "Electrical Idle Exit Ordered Set as defined in PCIe Base Specification",
+    "definition_zh": "电气空闲退出有序集，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "EIOS",
+    "alias": null,
+    "definition_en": "Electrical Idle Ordered Set as defined in PCIe Base Specification",
+    "definition_zh": "电气空闲有序集，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "EIOSQ",
+    "alias": null,
+    "definition_en": "EIOS Sequence as defined in PCIe Base Specification",
+    "definition_zh": "EIOS 序列，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "EMD",
+    "alias": null,
+    "definition_en": "Extended Metadata",
+    "definition_zh": "扩展元数据（Extended Metadata）"
+  },
+  {
+    "term": "EMV",
+    "alias": null,
+    "definition_en": "Extended MetaValue",
+    "definition_zh": "扩展元值（Extended MetaValue）"
+  },
+  {
+    "term": "ENIW",
+    "alias": null,
+    "definition_en": "Encoded Number of Interleave Ways",
+    "definition_zh": "编码交织路数（Encoded Number of Interleave Ways）"
+  },
+  {
+    "term": "EP",
+    "alias": null,
+    "definition_en": "Endpoint",
+    "definition_zh": "端点（Endpoint）"
+  },
+  {
+    "term": "eRCD",
+    "alias": null,
+    "definition_en": "Exclusive Restricted CXL Device (formerly known as CXL 1.1 only Device). eRCD is a CXL device component that can operate only in RCD mode.",
+    "definition_zh": "独占受限 CXL 设备（Exclusive Restricted CXL Device，原称仅 CXL 1.1 设备）。eRCD 是只能在 RCD 模式下运行的 CXL 设备组件。"
+  },
+  {
+    "term": "eRCH",
+    "alias": null,
+    "definition_en": "Exclusive Restricted CXL Host (formerly known as CXL 1.1 only host). eRCH is a CXL host component that can operate only in RCD mode.",
+    "definition_zh": "独占受限 CXL 主机（Exclusive Restricted CXL Host，原称仅 CXL 1.1 主机）。eRCH 是只能在 RCD 模式下运行的 CXL 主机组件。"
+  },
+  {
+    "term": "evPPB",
+    "alias": null,
+    "definition_en": "Egress vPPB",
+    "definition_zh": "出口 vPPB（Egress vPPB）"
+  },
+  {
+    "term": "Explicit Access Control",
+    "alias": null,
+    "definition_en": "TE State ownership tracking where the state change occurs explicitly utilizing a TE State change message that is independent of each memory transaction.",
+    "definition_zh": "显式访问控制：TE 状态所有权跟踪方式，状态变更通过独立于每次内存事务的 TE 状态变更消息显式发生。"
+  },
+  {
+    "term": "Fabric Port (FPort)",
+    "alias": null,
+    "definition_en": "PBR switch port that connects to another PBR switch port.",
+    "definition_zh": "连接到另一个 PBR 交换机端口的 PBR 交换机端口。"
+  },
+  {
+    "term": "FAM",
+    "alias": null,
+    "definition_en": "Fabric-Attached Memory. HDM within a Type 2 or Type 3 device that can be made accessible to multiple hosts concurrently. Each HDM region can either be pooled (dedicated to a single host) or shared (accessible concurrently by multiple hosts).",
+    "definition_zh": "结构附属内存（Fabric-Attached Memory）。Type 2 或 Type 3 设备中的 HDM，可同时被多个主机访问。每个 HDM 区域既可池化（专用于单个主机），也可共享（由多个主机并发访问）。"
+  },
+  {
+    "term": "FAST",
+    "alias": null,
+    "definition_en": "Fabric Address Segment Table",
+    "definition_zh": "结构地址段表（Fabric Address Segment Table）"
+  },
+  {
+    "term": "FC",
+    "alias": null,
+    "definition_en": "Flow Control",
+    "definition_zh": "流控（Flow Control）"
+  },
+  {
+    "term": "FCBP",
+    "alias": null,
+    "definition_en": "Flow Control Backpressured",
+    "definition_zh": "流控背压（Flow Control Backpressured）"
+  },
+  {
+    "term": "FEC",
+    "alias": null,
+    "definition_en": "Forwarded Error Correction",
+    "definition_zh": "前向纠错（Forwarded Error Correction）"
+  },
+  {
+    "term": "Flex Bus",
+    "alias": null,
+    "definition_en": "A flexible high-speed port that is configured to support either PCIe or CXL.",
+    "definition_zh": "可配置为支持 PCIe 或 CXL 的灵活高速端口。"
+  },
+  {
+    "term": "Flex Bus.CXL",
+    "alias": null,
+    "definition_en": "CXL protocol over a Flex Bus interconnect.",
+    "definition_zh": "在 Flex Bus 互连上运行的 CXL 协议。"
+  },
+  {
+    "term": "Flit",
+    "alias": null,
+    "definition_en": "Link Layer Unit of Transfer",
+    "definition_zh": "链路层传输单元（Link Layer Unit of Transfer）"
+  },
+  {
+    "term": "FLR",
+    "alias": null,
+    "definition_en": "Function Level Reset",
+    "definition_zh": "功能级复位（Function Level Reset）"
+  },
+  {
+    "term": "FM",
+    "alias": null,
+    "definition_en": "The Fabric Manager is an entity separate from the switch or host firmware that controls aspects of the system related to binding and management of pooled ports and devices.",
+    "definition_zh": "结构管理器（Fabric Manager）是独立于交换机或主机固件的实体，控制与池化端口和设备的绑定及管理相关的系统方面。"
+  },
+  {
+    "term": "FMLD",
+    "alias": null,
+    "definition_en": "Fabric Manager-owned Logical Device",
+    "definition_zh": "结构管理器拥有的逻辑设备（Fabric Manager-owned Logical Device）"
+  },
+  {
+    "term": "FM-owned PPB",
+    "alias": null,
+    "definition_en": "Link that contains traffic from multiple VCSs or an unbound physical port.",
+    "definition_zh": "包含来自多个 VCS 的流量或未绑定物理端口的链路。"
+  },
+  {
+    "term": "Fundamental Reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification",
+    "definition_zh": "基本复位，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "FW",
+    "alias": null,
+    "definition_en": "Firmware",
+    "definition_zh": "固件（Firmware）"
+  },
+  {
+    "term": "GAM",
+    "alias": null,
+    "definition_en": "GFD Async Message",
+    "definition_zh": "GFD 异步消息（GFD Async Message）"
+  },
+  {
+    "term": "GAE",
+    "alias": null,
+    "definition_en": "Global Memory Access Endpoint",
+    "definition_zh": "全局内存访问端点（Global Memory Access Endpoint）"
+  },
+  {
+    "term": "GDT",
+    "alias": null,
+    "definition_en": "GFD Decoder Table",
+    "definition_zh": "GFD 解码器表（GFD Decoder Table）"
+  },
+  {
+    "term": "G-FAM",
+    "alias": null,
+    "definition_en": "Global FAM. Highly scalable form of FAM that is presented to hosts without using Logical Devices (LDs). Like LD-FAM, G-FAM presents HDM that can be pooled or shared.",
+    "definition_zh": "全局 FAM。不使用逻辑设备（LD）即可向主机呈现的高度可扩展 FAM 形式。与 LD-FAM 类似，G-FAM 呈现可池化或可共享的 HDM。"
+  },
+  {
+    "term": "GFD",
+    "alias": null,
+    "definition_en": "G-FAM device",
+    "definition_zh": "G-FAM 设备"
+  },
+  {
+    "term": "GFD decoder",
+    "alias": null,
+    "definition_en": "HPA-to-DPA translation mechanism inside a GFD",
+    "definition_zh": "GFD 内部的 HPA 到 DPA 转换机制"
+  },
+  {
+    "term": "GI",
+    "alias": null,
+    "definition_en": "Generic Affinity",
+    "definition_zh": "通用亲和（Generic Affinity）"
+  },
+  {
+    "term": "GIM",
+    "alias": null,
+    "definition_en": "Global Integrated Memory",
+    "definition_zh": "全局集成内存（Global Integrated Memory）"
+  },
+  {
+    "term": "GMV",
+    "alias": null,
+    "definition_en": "Global Memory Mapping Vector",
+    "definition_zh": "全局内存映射向量（Global Memory Mapping Vector）"
+  },
+  {
+    "term": "GO",
+    "alias": null,
+    "definition_en": "Global Observation. This is used in the context of coherence protocol as a message to know when data is guaranteed to be observed by all agents in the coherence domain for either a read or a write.",
+    "definition_zh": "全局可见（Global Observation）。在一致性协议上下文中用作消息，用于获知数据在读或写时保证可被一致性域中所有代理观察到的时机。"
+  },
+  {
+    "term": "GPF",
+    "alias": null,
+    "definition_en": "Global Persistent Flush",
+    "definition_zh": "全局持久刷新（Global Persistent Flush）"
+  },
+  {
+    "term": "H2D",
+    "alias": null,
+    "definition_en": "Host to Device",
+    "definition_zh": "主机到设备（Host to Device）"
+  },
+  {
+    "term": "HA",
+    "alias": null,
+    "definition_en": "Home Agent. This is the agent on the host that is responsible for resolving system wide coherency for a given address.",
+    "definition_zh": "Home Agent。主机上负责针对给定地址解决系统范围一致性的代理。"
+  },
+  {
+    "term": "HBIG",
+    "alias": null,
+    "definition_en": "Host Bridge Interleave Granularity",
+    "definition_zh": "主机桥交织粒度（Host Bridge Interleave Granularity）"
+  },
+  {
+    "term": "HBM",
+    "alias": null,
+    "definition_en": "High-Bandwidth Memory",
+    "definition_zh": "高带宽内存（High-Bandwidth Memory）"
+  },
+  {
+    "term": "HBR",
+    "alias": null,
+    "definition_en": "Hierarchy Based Routing",
+    "definition_zh": "基于层级的路由（Hierarchy Based Routing）"
+  },
+  {
+    "term": "HBR link",
+    "alias": null,
+    "definition_en": "Link operating in a mode, where all flits are in HBR format",
+    "definition_zh": "以所有 flit 均为 HBR 格式的模式运行的链路"
+  },
+  {
+    "term": "HBR switch",
+    "alias": null,
+    "definition_en": "Switch that supports only HBR",
+    "definition_zh": "仅支持 HBR 的交换机"
+  },
+  {
+    "term": "HDM",
+    "alias": null,
+    "definition_en": "Host-managed Device Memory. Device-attached memory that is mapped to system coherent address space and accessible to the Host using standard write-back semantics. Memory located on a CXL device can be mapped as either HDM or PDM.",
+    "definition_zh": "主机管理的设备内存（Host-managed Device Memory）。映射到系统一致性地址空间、主机可使用标准写回语义访问的设备附属内存。位于 CXL 设备上的内存可映射为 HDM 或 PDM。"
+  },
+  {
+    "term": "HDM-H",
+    "alias": null,
+    "definition_en": "Host-only Coherent HDM region type. Used only for Type 3 Devices.",
+    "definition_zh": "仅主机一致性的 HDM 区域类型。仅用于 Type 3 设备。"
+  },
+  {
+    "term": "HDM-D",
+    "alias": null,
+    "definition_en": "Device Coherent HDM region type. Used only for Type 2 devices that rely on CXL.cache to manage coherence with the host.",
+    "definition_zh": "设备一致性 HDM 区域类型。仅用于依赖 CXL.cache 与主机管理一致性的 Type 2 设备。"
+  },
+  {
+    "term": "HDM-DB",
+    "alias": null,
+    "definition_en": "Device Coherent using Back-Invalidate HDM region type. Can be used by Type 2 devices or Type 3 devices.",
+    "definition_zh": "使用反向使无效的设备一致性 HDM 区域类型。可由 Type 2 或 Type 3 设备使用。"
+  },
+  {
+    "term": "_HID",
+    "alias": null,
+    "definition_en": "Hardware ID as defined in ACPI Specification",
+    "definition_zh": "硬件 ID（Hardware ID），如 ACPI 规范所定义"
+  },
+  {
+    "term": "HMAT",
+    "alias": null,
+    "definition_en": "Heterogeneous Memory Attribute Table as defined in ACPI Specification",
+    "definition_zh": "异构内存属性表（Heterogeneous Memory Attribute Table），如 ACPI 规范所定义"
+  },
+  {
+    "term": "Host ES",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, the single Edge Switch connected to the RP.",
+    "definition_zh": "在单个 VH 的上下文中，连接到 RP 的唯一边缘交换机。"
+  },
+  {
+    "term": "Hot Reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification",
+    "definition_zh": "热复位，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "HPA",
+    "alias": null,
+    "definition_en": "Host Physical Address",
+    "definition_zh": "主机物理地址（Host Physical Address）"
+  },
+  {
+    "term": "HPC",
+    "alias": null,
+    "definition_en": "High-Performance Computing",
+    "definition_zh": "高性能计算（High-Performance Computing）"
+  },
+  {
+    "term": "hPPR",
+    "alias": null,
+    "definition_en": "Hard Post Package Repair",
+    "definition_zh": "硬封装后修复（Hard Post Package Repair）"
+  },
+  {
+    "term": "HW",
+    "alias": null,
+    "definition_en": "Hardware",
+    "definition_zh": "硬件（Hardware）"
+  },
+  {
+    "term": "IDE",
+    "alias": null,
+    "definition_en": "Integrity and Data Encryption",
+    "definition_zh": "完整性与数据加密（Integrity and Data Encryption）"
+  },
+  {
+    "term": "IDT",
+    "alias": null,
+    "definition_en": "Interleave DPID Table",
+    "definition_zh": "交织 DPID 表（Interleave DPID Table）"
+  },
+  {
+    "term": "IG",
+    "alias": null,
+    "definition_en": "Interleave Granularity",
+    "definition_zh": "交织粒度（Interleave Granularity）"
+  },
+  {
+    "term": "IGB",
+    "alias": null,
+    "definition_en": "Interleave Granularity in number of bytes",
+    "definition_zh": "以字节数表示的交织粒度"
+  },
+  {
+    "term": "Intermediate Fabric Switch",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, a PBR switch that forwards VH traffic but is not a Host ES or downstream ES.",
+    "definition_zh": "在单个 VH 的上下文中，转发 VH 流量但不是 Host ES 或下游 ES 的 PBR 交换机。"
+  },
+  {
+    "term": "IOMMU",
+    "alias": null,
+    "definition_en": "I/O Memory Management Unit as defined in PCIe Base Specification",
+    "definition_zh": "I/O 内存管理单元，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "Implicit Access Control",
+    "alias": null,
+    "definition_en": "TE State ownership tracking where the state change occurs implicitly as part of executing each memory transaction.",
+    "definition_zh": "隐式访问控制：TE 状态所有权跟踪方式，状态变更作为执行每次内存事务的一部分隐式发生。"
+  },
+  {
+    "term": "Initiator",
+    "alias": null,
+    "definition_en": "Defined by TSP as a host or accelerator device that issues TSP requests.",
+    "definition_zh": "由 TSP 定义为发出 TSP 请求的主机或加速器设备。"
+  },
+  {
+    "term": "IP2PM",
+    "alias": null,
+    "definition_en": "Independent Power Manager to (Master) Power Manager, PM messages from the device to the host.",
+    "definition_zh": "独立电源管理器到（主）电源管理器，从设备到主机的 PM 消息。"
+  },
+  {
+    "term": "ISL",
+    "alias": null,
+    "definition_en": "Inter-Switch Link. PBR link that connects Fabric Ports.",
+    "definition_zh": "交换机间链路（Inter-Switch Link）。连接结构端口的 PBR 链路。"
+  },
+  {
+    "term": "ISP",
+    "alias": null,
+    "definition_en": "Interleave Set Position",
+    "definition_zh": "交织集位置（Interleave Set Position）"
+  },
+  {
+    "term": "IV",
+    "alias": null,
+    "definition_en": "Initialization Vector",
+    "definition_zh": "初始化向量（Initialization Vector）"
+  },
+  {
+    "term": "IW",
+    "alias": null,
+    "definition_en": "Interleave Ways",
+    "definition_zh": "交织路数（Interleave Ways）"
+  },
+  {
+    "term": "IWB",
+    "alias": null,
+    "definition_en": "Implicit Writeback",
+    "definition_zh": "隐式写回（Implicit Writeback）"
+  },
+  {
+    "term": "LAV",
+    "alias": null,
+    "definition_en": "LDST Access Vector",
+    "definition_zh": "LDST 访问向量（LDST Access Vector）"
+  },
+  {
+    "term": "LD",
+    "alias": null,
+    "definition_en": "Logical Device. Entity that represents a CXL Endpoint that is bound to a VCS. An SLD contains one LD. An MLD contains multiple LDs.",
+    "definition_zh": "逻辑设备（Logical Device）。表示绑定到 VCS 的 CXL 端点的实体。SLD 包含一个 LD。MLD 包含多个 LD。"
+  },
+  {
+    "term": "LDST",
+    "alias": null,
+    "definition_en": "LD-FAM Segment Table",
+    "definition_zh": "LD-FAM 段表（LD-FAM Segment Table）"
+  },
+  {
+    "term": "LD-FAM",
+    "alias": null,
+    "definition_en": "FAM that is presented to hosts via Logical Devices (LDs).",
+    "definition_zh": "通过逻辑设备（LD）向主机呈现的 FAM。"
+  },
+  {
+    "term": "Link Layer Clock",
+    "alias": null,
+    "definition_en": "CXL.cachemem link layer clock rate usually defined by the flit rate during normal operation.",
+    "definition_zh": "CXL.cachemem 链路层时钟速率，通常由正常运行期间的 flit 速率定义。"
+  },
+  {
+    "term": "LLC",
+    "alias": null,
+    "definition_en": "Last Level Cache",
+    "definition_zh": "末级缓存（Last Level Cache）"
+  },
+  {
+    "term": "LLCRD",
+    "alias": null,
+    "definition_en": "Link Layer Credit",
+    "definition_zh": "链路层信用（Link Layer Credit）"
+  },
+  {
+    "term": "LLCTRL",
+    "alias": null,
+    "definition_en": "Link Layer Control",
+    "definition_zh": "链路层控制（Link Layer Control）"
+  },
+  {
+    "term": "LLR",
+    "alias": null,
+    "definition_en": "Link Layer Retry",
+    "definition_zh": "链路层重试（Link Layer Retry）"
+  },
+  {
+    "term": "LLRB",
+    "alias": null,
+    "definition_en": "Link Layer Retry Buffer",
+    "definition_zh": "链路层重试缓冲（Link Layer Retry Buffer）"
+  },
+  {
+    "term": "LOpt",
+    "alias": null,
+    "definition_en": "Latency-Optimized",
+    "definition_zh": "延迟优化（Latency-Optimized）"
+  },
+  {
+    "term": "LRSM",
+    "alias": null,
+    "definition_en": "Local Retry State Machine",
+    "definition_zh": "本地重试状态机（Local Retry State Machine）"
+  },
+  {
+    "term": "LRU",
+    "alias": null,
+    "definition_en": "Least recently used",
+    "definition_zh": "最近最少使用（Least recently used）"
+  },
+  {
+    "term": "LSA",
+    "alias": null,
+    "definition_en": "Label Storage Area",
+    "definition_zh": "标签存储区（Label Storage Area）"
+  },
+  {
+    "term": "LSM",
+    "alias": null,
+    "definition_en": "Link State Machine",
+    "definition_zh": "链路状态机（Link State Machine）"
+  },
+  {
+    "term": "LTR",
+    "alias": null,
+    "definition_en": "Latency Tolerance Reporting",
+    "definition_zh": "延迟容限报告（Latency Tolerance Reporting）"
+  },
+  {
+    "term": "LTSSM",
+    "alias": null,
+    "definition_en": "Link Training and Status State Machine as defined in PCIe Base Specification",
+    "definition_zh": "链路训练与状态状态机，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "LUN",
+    "alias": null,
+    "definition_en": "Logical Unit Number",
+    "definition_zh": "逻辑单元号（Logical Unit Number）"
+  },
+  {
+    "term": "M2S",
+    "alias": null,
+    "definition_en": "Master to Subordinate",
+    "definition_zh": "主到从（Master to Subordinate）"
+  },
+  {
+    "term": "MAC",
+    "alias": null,
+    "definition_en": "Message Authentication Code; also referred to as Authentication Tag or Integrity value.",
+    "definition_zh": "消息认证码（Message Authentication Code）；也称为认证标签或完整性值。"
+  },
+  {
+    "term": "MAC epoch",
+    "alias": null,
+    "definition_en": "Set of flits which are aggregated together for MAC computation.",
+    "definition_zh": "为进行 MAC 计算而聚合在一起的一组 flit。"
+  },
+  {
+    "term": "MB",
+    "alias": null,
+    "definition_en": "Megabyte - 220 bytes (1,048,576 bytes)",
+    "definition_zh": "兆字节（Megabyte）——2^20 字节（1,048,576 字节）"
+  },
+  {
+    "term": "Mailbox",
+    "alias": null,
+    "definition_en": "(No definition provided in source table.)",
+    "definition_zh": "（源表未提供独立释义）"
+  },
+  {
+    "term": "MC",
+    "alias": null,
+    "definition_en": "Memory Controller",
+    "definition_zh": "内存控制器（Memory Controller）"
+  },
+  {
+    "term": "MCA",
+    "alias": null,
+    "definition_en": "Machine Check Architecture",
+    "definition_zh": "机器检查架构（Machine Check Architecture）"
+  },
+  {
+    "term": "MCTP",
+    "alias": null,
+    "definition_en": "Management Component Transport Protocol",
+    "definition_zh": "管理组件传输协议（Management Component Transport Protocol）"
+  },
+  {
+    "term": "MDH",
+    "alias": null,
+    "definition_en": "Multi-Data Header",
+    "definition_zh": "多数据头（Multi-Data Header）"
+  },
+  {
+    "term": "Measurement",
+    "alias": null,
+    "definition_en": "Representation of firmware/software or configuration data on a device.",
+    "definition_zh": "设备上固件/软件或配置数据的表示。"
+  },
+  {
+    "term": "MEC",
+    "alias": null,
+    "definition_en": "Multiple Event Counting",
+    "definition_zh": "多事件计数（Multiple Event Counting）"
+  },
+  {
+    "term": "MEFN",
+    "alias": null,
+    "definition_en": "Memory Error Firmware Notification. An EFN that is used to report memory errors.",
+    "definition_zh": "内存错误固件通知（Memory Error Firmware Notification）。用于报告内存错误的 EFN。"
+  },
+  {
+    "term": "Memory Group",
+    "alias": null,
+    "definition_en": "Set of DC blocks that can be accessed by the same set of requesters.",
+    "definition_zh": "可由同一组请求者访问的一组 DC 块。"
+  },
+  {
+    "term": "Memory Sparing",
+    "alias": null,
+    "definition_en": "Repair function that replaces a portion of memory (the “spared memory”) with a portion of functional memory at that same DPA.",
+    "definition_zh": "用同一 DPA 处的一部分功能内存替换一部分内存（“备用内存”）的修复功能。"
+  },
+  {
+    "term": "MESI",
+    "alias": null,
+    "definition_en": "Modified, Exclusive, Shared, and Invalid cache coherence protocol",
+    "definition_zh": "Modified、Exclusive、Shared 与 Invalid 缓存一致性协议"
+  },
+  {
+    "term": "MGT",
+    "alias": null,
+    "definition_en": "Memory Group Table",
+    "definition_zh": "内存组表（Memory Group Table）"
+  },
+  {
+    "term": "MH-MLD",
+    "alias": null,
+    "definition_en": "Multi-headed MLD. CXL component that contains multiple CXL ports, each presenting an MLD or SLD. The ports must correctly operate when connected to any combination of common or different hosts. The FM API is used to configure each LD as well as the overall MH-MLD. Currently, MH-MLDs are architected only for Type 3 LDs. MH-MLDs are considered a specialized type of MLD and, as such, are subject to all functional and behavioral requirements of MLDs.",
+    "definition_zh": "多头 MLD。包含多个 CXL 端口的 CXL 组件，每个端口呈现 MLD 或 SLD。这些端口在连接到任意组合的相同或不同主机时必须正确工作。使用 FM API 配置每个 LD 以及整体 MH-MLD。当前 MH-MLD 仅针对 Type 3 LD 进行架构定义。MH-MLD 被视为一种特殊类型的 MLD，因此须满足 MLD 的全部功能与行为要求。"
+  },
+  {
+    "term": "MH-SLD",
+    "alias": null,
+    "definition_en": "Multi-headed SLD. CXL component that contains multiple CXL ports, each presenting an SLD. The ports must correctly operate when connected to any combination of common or different hosts. The FM API is used to configure each SLD as well as the overall MH-SLD. Currently, MH-SLDs are architected only for Type 3 LDs.",
+    "definition_zh": "多头 SLD。包含多个 CXL 端口的 CXL 组件，每个端口呈现 SLD。这些端口在连接到任意组合的相同或不同主机时必须正确工作。使用 FM API 配置每个 SLD 以及整体 MH-SLD。当前 MH-SLD 仅针对 Type 3 LD 进行架构定义。"
+  },
+  {
+    "term": "ML",
+    "alias": null,
+    "definition_en": "Machine Learning",
+    "definition_zh": "机器学习（Machine Learning）"
+  },
+  {
+    "term": "MLD",
+    "alias": null,
+    "definition_en": "Multi-Logical Device. CXL component that contains multiple LDs, out of which one LD is reserved for configuration via the FM API, and each remaining LD is suitable for assignment to a different host. Currently MLDs are architected only for Type 3 LDs.",
+    "definition_zh": "多逻辑设备（Multi-Logical Device）。包含多个 LD 的 CXL 组件，其中一个 LD 保留用于通过 FM API 配置，其余每个 LD 适于分配给不同主机。当前 MLD 仅针对 Type 3 LD 进行架构定义。"
+  },
+  {
+    "term": "MLD Port",
+    "alias": null,
+    "definition_en": "An MLD Port is one that has linked up with an MLD Component. The port is natively bound to an FM- owned PPB inside the switch.",
+    "definition_zh": "已与 MLD 组件建链的端口。该端口在交换机内部原生绑定到 FM 拥有的 PPB。"
+  },
+  {
+    "term": "MMIO",
+    "alias": null,
+    "definition_en": "Memory Mapped I/O",
+    "definition_zh": "内存映射 I/O（Memory Mapped I/O）"
+  },
+  {
+    "term": "MR",
+    "alias": null,
+    "definition_en": "Multi-Root",
+    "definition_zh": "多根（Multi-Root）"
+  },
+  {
+    "term": "MRL",
+    "alias": null,
+    "definition_en": "Manually-operated Retention Latch as defined in PCIe Base Specification",
+    "definition_zh": "手动操作保持闩锁，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "MS0",
+    "alias": null,
+    "definition_en": "Meta0-State",
+    "definition_zh": "Meta0-State"
+  },
+  {
+    "term": "MSB",
+    "alias": null,
+    "definition_en": "Most Significant Bit",
+    "definition_zh": "最高有效位（Most Significant Bit）"
+  },
+  {
+    "term": "MSE",
+    "alias": null,
+    "definition_en": "Memory Space Enable",
+    "definition_zh": "内存空间使能（Memory Space Enable）"
+  },
+  {
+    "term": "MSI/MSI-X",
+    "alias": null,
+    "definition_en": "Message Signaled Interrupt as defined in PCIe Base Specification",
+    "definition_zh": "消息信号中断，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "N/A",
+    "alias": null,
+    "definition_en": "Not Applicable",
+    "definition_zh": "不适用（Not Applicable）"
+  },
+  {
+    "term": "Native Width",
+    "alias": null,
+    "definition_en": "This is the maximum possible expected negotiated link width.",
+    "definition_zh": "可能协商得到的最大期望链路宽度。"
+  },
+  {
+    "term": "NDR",
+    "alias": null,
+    "definition_en": "No Data Response",
+    "definition_zh": "无数据响应（No Data Response）"
+  },
+  {
+    "term": "NG",
+    "alias": null,
+    "definition_en": "Number of Groups",
+    "definition_zh": "组数（Number of Groups）"
+  },
+  {
+    "term": "NIB",
+    "alias": null,
+    "definition_en": "Number of Bitmap Entries",
+    "definition_zh": "位图条目数（Number of Bitmap Entries）"
+  },
+  {
+    "term": "NIW",
+    "alias": null,
+    "definition_en": "Number of Interleave Ways",
+    "definition_zh": "交织路数（Number of Interleave Ways）"
+  },
+  {
+    "term": "NOP",
+    "alias": null,
+    "definition_en": "No Operation",
+    "definition_zh": "空操作（No Operation）"
+  },
+  {
+    "term": "NT",
+    "alias": null,
+    "definition_en": "Non-Temporal",
+    "definition_zh": "非时间性（Non-Temporal）"
+  },
+  {
+    "term": "NVM",
+    "alias": null,
+    "definition_en": "Non-volatile Memory",
+    "definition_zh": "非易失性内存（Non-volatile Memory）"
+  },
+  {
+    "term": "NXM",
+    "alias": null,
+    "definition_en": "Non-existent Memory",
+    "definition_zh": "不存在的内存（Non-existent Memory）"
+  },
+  {
+    "term": "OBFF",
+    "alias": null,
+    "definition_en": "Optimized Buffer Flush/Fill as defined in PCIe Base Specification",
+    "definition_zh": "优化缓冲刷新/填充，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "OHC",
+    "alias": null,
+    "definition_en": "Orthogonal Header Content as defined in PCIe Base Specification",
+    "definition_zh": "正交头内容，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "OOB",
+    "alias": null,
+    "definition_en": "Out of Band",
+    "definition_zh": "带外（Out of Band）"
+  },
+  {
+    "term": "_OSC",
+    "alias": null,
+    "definition_en": "Operating System Capabilities as defined in ACPI Specification",
+    "definition_zh": "操作系统能力，如 ACPI 规范所定义"
+  },
+  {
+    "term": "OSCKID",
+    "alias": null,
+    "definition_en": "CKID memory encryption key configured for use with non-TEE data.",
+    "definition_zh": "配置用于非 TEE 数据的 CKID 内存加密密钥。"
+  },
+  {
+    "term": "OSPM",
+    "alias": null,
+    "definition_en": "Operating System-directed configuration and Power Management as defined in ACPI Specification",
+    "definition_zh": "操作系统导向的配置与电源管理，如 ACPI 规范所定义"
+  },
+  {
+    "term": "PA",
+    "alias": null,
+    "definition_en": "Physical Address",
+    "definition_zh": "物理地址（Physical Address）"
+  },
+  {
+    "term": "P2P",
+    "alias": null,
+    "definition_en": "Peer to peer",
+    "definition_zh": "点对点 / 端到端（Peer to peer）"
+  },
+  {
+    "term": "PBR",
+    "alias": null,
+    "definition_en": "Port Based Routing",
+    "definition_zh": "基于端口的路由（Port Based Routing）"
+  },
+  {
+    "term": "PBR link",
+    "alias": null,
+    "definition_en": "Link where all flits are in PBR format",
+    "definition_zh": "所有 flit 均为 PBR 格式的链路"
+  },
+  {
+    "term": "PBR switch",
+    "alias": null,
+    "definition_en": "Switch that supports PBR and has PBR enabled",
+    "definition_zh": "支持 PBR 且已启用 PBR 的交换机"
+  },
+  {
+    "term": "P/C",
+    "alias": null,
+    "definition_en": "Producer-Consumer",
+    "definition_zh": "生产者-消费者（Producer-Consumer）"
+  },
+  {
+    "term": "PCIe",
+    "alias": null,
+    "definition_en": "PCI Express",
+    "definition_zh": "PCI Express"
+  },
+  {
+    "term": "PCRC",
+    "alias": null,
+    "definition_en": "CRC-32 calculated on the flit plaintext content. Encrypted PCRC is used to provide robustness against hard and soft faults internal to the encryption and decryption engines.",
+    "definition_zh": "对 flit 明文内容计算的 CRC-32。加密后的 PCRC 用于抵御加密与解密引擎内部的硬故障与软故障。"
+  },
+  {
+    "term": "PDM",
+    "alias": null,
+    "definition_en": "Private Device memory. Device-attached memory that is not mapped to system address space or directly accessible to Host as cacheable memory. Memory located on PCIe devices is of this type. Memory located on a CXL device can be mapped as either PDM or HDM.",
+    "definition_zh": "私有设备内存（Private Device memory）。未映射到系统地址空间、也不可作为可缓存内存被主机直接访问的设备附属内存。PCIe 设备上的内存属于此类。CXL 设备上的内存可映射为 PDM 或 HDM。"
+  },
+  {
+    "term": "Peer",
+    "alias": null,
+    "definition_en": "Peer device in the context of peer-to-peer (P2P) accesses between devices.",
+    "definition_zh": "在设备间点对点（P2P）访问上下文中的对端设备。"
+  },
+  {
+    "term": "Persistent Memory Device",
+    "alias": null,
+    "definition_en": "Device that retains content across power cycling. A CXL Memory device can advertise “Persistent Memory” capability as long as it supports the minimum set of requirements described in Section 8.2.10.9. The platform owns the final responsibility of determining whether a memory device can be used as Persistent Memory. This determination is beyond the scope of CXL specification.",
+    "definition_zh": "断电后仍保留内容的设备。只要 CXL 内存设备支持第 8.2.10.9 节所述的最低要求集，即可通告“持久内存”能力。平台最终负责判定某内存设备是否可用作持久内存。该判定超出 CXL 规范范围。"
+  },
+  {
+    "term": "PI",
+    "alias": null,
+    "definition_en": "Programming Interface as defined in PCIe Base Specification",
+    "definition_zh": "编程接口，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "PID",
+    "alias": null,
+    "definition_en": "PBR ID",
+    "definition_zh": "PBR ID"
+  },
+  {
+    "term": "PIF",
+    "alias": null,
+    "definition_en": "PID Forward",
+    "definition_zh": "PID 转发（PID Forward）"
+  },
+  {
+    "term": "PLDM",
+    "alias": null,
+    "definition_en": "Platform-Level Data Model",
+    "definition_zh": "平台级数据模型（Platform-Level Data Model）"
+  },
+  {
+    "term": "PM",
+    "alias": null,
+    "definition_en": "Power Management",
+    "definition_zh": "电源管理（Power Management）"
+  },
+  {
+    "term": "PME",
+    "alias": null,
+    "definition_en": "Power Management Event",
+    "definition_zh": "电源管理事件（Power Management Event）"
+  },
+  {
+    "term": "PM2IP",
+    "alias": null,
+    "definition_en": "(Master) Power Manager to Independent Power Manager, PM messages from the host to the device.",
+    "definition_zh": "（主）电源管理器到独立电源管理器，从主机到设备的 PM 消息。"
+  },
+  {
+    "term": "PPB",
+    "alias": null,
+    "definition_en": "PCI-to-PCI Bridge inside a CXL switch that is FM-owned. The port connected to a PPB can be disconnected, or connected to a PCIe component or connected to a CXL component.",
+    "definition_zh": "CXL 交换机中由 FM 拥有的 PCI 到 PCI 桥。连接到 PPB 的端口可断开，或连接到 PCIe 组件，或连接到 CXL 组件。"
+  },
+  {
+    "term": "PPR",
+    "alias": null,
+    "definition_en": "Post Package Repair",
+    "definition_zh": "封装后修复（Post Package Repair）"
+  },
+  {
+    "term": "PrimarySession",
+    "alias": null,
+    "definition_en": "CMA/SPDM session established between the TSM or TSM RoT and the DSM. Utilized for configuring and locking the device and setting and clearing memory encryption keys using TSP.",
+    "definition_zh": "在 TSM 或 TSM RoT 与 DSM 之间建立的 CMA/SPDM 会话。用于配置并锁定设备，以及使用 TSP 设置与清除内存加密密钥。"
+  },
+  {
+    "term": "PSK",
+    "alias": null,
+    "definition_en": "CMA/SPDM-defined pre-shared key.",
+    "definition_zh": "CMA/SPDM 定义的预共享密钥。"
+  },
+  {
+    "term": "PTH",
+    "alias": null,
+    "definition_en": "PBR TLP Header",
+    "definition_zh": "PBR TLP 头（PBR TLP Header）"
+  },
+  {
+    "term": "QoS",
+    "alias": null,
+    "definition_en": "Quality of Service",
+    "definition_zh": "服务质量（Quality of Service）"
+  },
+  {
+    "term": "QTG",
+    "alias": null,
+    "definition_en": "QoS Throttling Group, the group of CXL.mem target resources that are throttled together in response to QoS telemetry (see Section 3.3.3). Each QTG is identified using a number that is known as QTG ID. QTG ID is a positive integer.",
+    "definition_zh": "QoS 节流组（QoS Throttling Group），响应 QoS 遥测而一起被节流的一组 CXL.mem 目标资源（见第 3.3.3 节）。每个 QTG 用称为 QTG ID 的正整数标识。"
+  },
+  {
+    "term": "Rank",
+    "alias": null,
+    "definition_en": "Set of memory devices on a channel that together execute a transaction.",
+    "definition_zh": "通道上一组共同执行事务的内存设备。"
+  },
+  {
+    "term": "RAS",
+    "alias": null,
+    "definition_en": "Reliability Availability and Serviceability",
+    "definition_zh": "可靠性、可用性与可服务性（Reliability Availability and Serviceability）"
+  },
+  {
+    "term": "RC",
+    "alias": null,
+    "definition_en": "Root Complex",
+    "definition_zh": "根复合体（Root Complex）"
+  },
+  {
+    "term": "RCD",
+    "alias": null,
+    "definition_en": "Shorthand for a Device that is operating in RCD mode (formerly known as CXL 1.1 Device)",
+    "definition_zh": "以 RCD 模式运行的设备的简称（原称 CXL 1.1 设备）"
+  },
+  {
+    "term": "RCD mode",
+    "alias": null,
+    "definition_en": "Restricted CXL Device mode (formerly known as CXL 1.1 mode). The CXL operating mode with a number of restrictions. These restrictions include lack of Hot-Plug support and 68B Flit mode being the only supported flit mode. See Section 9.11.1 for the complete list of these restrictions.",
+    "definition_zh": "受限 CXL 设备模式（原称 CXL 1.1 模式）。带有若干限制的 CXL 运行模式。这些限制包括不支持热插拔，以及仅支持 68B Flit 模式。完整限制列表见第 9.11.1 节。"
+  },
+  {
+    "term": "RCEC",
+    "alias": null,
+    "definition_en": "Root Complex Event Collector, collects errors from PCIe RCiEPs, as defined in PCIe Base Specification.",
+    "definition_zh": "根复合体事件收集器，收集来自 PCIe RCiEP 的错误，如 PCIe 基础规范所定义。"
+  },
+  {
+    "term": "RCH",
+    "alias": null,
+    "definition_en": "Restricted CXL Host. CXL Host that is operating in RCD mode (formerly known as CXL 1.1 Host).",
+    "definition_zh": "受限 CXL 主机。以 RCD 模式运行的 CXL 主机（原称 CXL 1.1 主机）。"
+  },
+  {
+    "term": "RCiEP",
+    "alias": null,
+    "definition_en": "Root Complex Integrated Endpoint",
+    "definition_zh": "根复合体集成端点（Root Complex Integrated Endpoint）"
+  },
+  {
+    "term": "RCRB",
+    "alias": null,
+    "definition_en": "Root Complex Register Block as defined in PCIe Base Specification",
+    "definition_zh": "根复合体寄存器块，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "RCS",
+    "alias": null,
+    "definition_en": "Requestor Cache State – The cache coherency state tracked by the host or initiator",
+    "definition_zh": "请求方缓存状态（Requestor Cache State）——由主机或发起方跟踪的缓存一致性状态"
+  },
+  {
+    "term": "RDPAS",
+    "alias": null,
+    "definition_en": "RCEC Downstream Port Association Structure",
+    "definition_zh": "RCEC 下游端口关联结构（RCEC Downstream Port Association Structure）"
+  },
+  {
+    "term": "Reserved",
+    "alias": null,
+    "definition_en": "The contents, states, or information are not defined at this time. Reserved register fields must be read only and must return 0 (all 0s for multi-bit fields) when read. Reserved encodings for register and packet fields must not be used. Any implementation dependent on a Reserved field value or encoding will result in an implementation that is not CXL-spec compliant. The functionality of such an implementation cannot be guaranteed in this or any future revision of this specification. Flit, Slot, and message reserved bits should be cleared to 0 by the sender and the receiver should ignore them.",
+    "definition_zh": "保留：内容、状态或信息此时尚未定义。保留寄存器字段必须为只读，读时必须返回 0（多位字段为全 0）。不得使用寄存器与包字段的保留编码。任何依赖保留字段值或编码的实现将导致不符合 CXL 规范；在本规范此版本或任何未来版本中均不能保证其功能。Flit、Slot 与消息的保留位应由发送方清零为 0，接收方应忽略它们。"
+  },
+  {
+    "term": "RFM",
+    "alias": null,
+    "definition_en": "Refresh Management",
+    "definition_zh": "刷新管理（Refresh Management）"
+  },
+  {
+    "term": "RGT",
+    "alias": null,
+    "definition_en": "Routing Group Table",
+    "definition_zh": "路由组表（Routing Group Table）"
+  },
+  {
+    "term": "RP",
+    "alias": null,
+    "definition_en": "Root Port",
+    "definition_zh": "根端口（Root Port）"
+  },
+  {
+    "term": "RPID",
+    "alias": null,
+    "definition_en": "Requester PID. In the context of a GFD, the SPID from an incoming request.",
+    "definition_zh": "请求方 PID。在 GFD 上下文中，指入站请求的 SPID。"
+  },
+  {
+    "term": "RRS",
+    "alias": null,
+    "definition_en": "Request Retry Status",
+    "definition_zh": "请求重试状态（Request Retry Status）"
+  },
+  {
+    "term": "RRSM",
+    "alias": null,
+    "definition_en": "Remote Retry State Machine",
+    "definition_zh": "远程重试状态机（Remote Retry State Machine）"
+  },
+  {
+    "term": "RSDT",
+    "alias": null,
+    "definition_en": "Root System Description Table as defined in ACPI Specification",
+    "definition_zh": "根系统描述表，如 ACPI 规范所定义"
+  },
+  {
+    "term": "RSVD or RV",
+    "alias": null,
+    "definition_en": "Reserved",
+    "definition_zh": "保留（Reserved）"
+  },
+  {
+    "term": "RT",
+    "alias": null,
+    "definition_en": "Route Table",
+    "definition_zh": "路由表（Route Table）"
+  },
+  {
+    "term": "RTT",
+    "alias": null,
+    "definition_en": "Round-Trip Time",
+    "definition_zh": "往返时延（Round-Trip Time）"
+  },
+  {
+    "term": "RwD",
+    "alias": null,
+    "definition_en": "Request with Data",
+    "definition_zh": "带数据请求（Request with Data）"
+  },
+  {
+    "term": "S2M",
+    "alias": null,
+    "definition_en": "Subordinate to Master",
+    "definition_zh": "从到主（Subordinate to Master）"
+  },
+  {
+    "term": "SAT",
+    "alias": null,
+    "definition_en": "SPID Access Table",
+    "definition_zh": "SPID 访问表（SPID Access Table）"
+  },
+  {
+    "term": "SBR",
+    "alias": null,
+    "definition_en": "Secondary Bus Reset as defined in PCIe Base Specification",
+    "definition_zh": "次级总线复位，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "SCC",
+    "alias": null,
+    "definition_en": "Sub-Class Code as defined in PCIe Base Specification",
+    "definition_zh": "子类代码，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "SDC",
+    "alias": null,
+    "definition_en": "Silent Data Corruption",
+    "definition_zh": "静默数据损坏（Silent Data Corruption）"
+  },
+  {
+    "term": "SDS",
+    "alias": null,
+    "definition_en": "Start of Data Stream",
+    "definition_zh": "数据流开始（Start of Data Stream）"
+  },
+  {
+    "term": "SecondarySession",
+    "alias": null,
+    "definition_en": "One or more optional CMA/SPDM sessions established between a host entity and the DSM. Utilized for setting and clearing memory encryption keys using TSP.",
+    "definition_zh": "在主机实体与 DSM 之间建立的一个或多个可选 CMA/SPDM 会话。用于使用 TSP 设置与清除内存加密密钥。"
+  },
+  {
+    "term": "Selective Trust",
+    "alias": null,
+    "definition_en": "Security model in which each TEE selects which devices it shall include in its TCB. The device trusted by one TEE may not be trusted by other TEEs within the system.",
+    "definition_zh": "选择性信任：一种安全模型，每个 TEE 选择将哪些设备纳入其 TCB。某一 TEE 信任的设备可能不被系统中其他 TEE 信任。"
+  },
+  {
+    "term": "SF",
+    "alias": null,
+    "definition_en": "Snoop Filter",
+    "definition_zh": "探听过滤器（Snoop Filter）"
+  },
+  {
+    "term": "SFSC",
+    "alias": null,
+    "definition_en": "Security Features for SCSI Commands",
+    "definition_zh": "SCSI 命令安全特性（Security Features for SCSI Commands）"
+  },
+  {
+    "term": "Sharer",
+    "alias": null,
+    "definition_en": "Entity that is sharing data with another entity.",
+    "definition_zh": "与另一实体共享数据的实体。"
+  },
+  {
+    "term": "SHDA",
+    "alias": null,
+    "definition_en": "Single Host, Direct Attached SLD EP",
+    "definition_zh": "单主机、直连 SLD 端点"
+  },
+  {
+    "term": "SH-MLD",
+    "alias": null,
+    "definition_en": "Single headed MLD. CXL component that contains a single CXL port, presenting an MLD.",
+    "definition_zh": "单头 MLD。包含单个 CXL 端口并呈现 MLD 的 CXL 组件。"
+  },
+  {
+    "term": "SH-SLD",
+    "alias": null,
+    "definition_en": "Single Headed Single Logical Device CXL component that contains a single CXL port, presenting an SLD.",
+    "definition_zh": "单头单逻辑设备：包含单个 CXL 端口并呈现 SLD 的 CXL 组件。"
+  },
+  {
+    "term": "SHSW",
+    "alias": null,
+    "definition_en": "Single Host, Switch Attached SLD EP",
+    "definition_zh": "单主机、交换机连接的 SLD 端点"
+  },
+  {
+    "term": "SHSW-FM",
+    "alias": null,
+    "definition_en": "Single Host, Fabric Managed, Switch Attached SLD EP",
+    "definition_zh": "单主机、结构管理、交换机连接的 SLD 端点"
+  },
+  {
+    "term": "Sideband",
+    "alias": null,
+    "definition_en": "Signal used for device detection, configuration, and Hot-Plug in PCIe connectors, as defined in PCIe Base Specification",
+    "definition_zh": "用于 PCIe 连接器中设备检测、配置与热插拔的信号，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "SLD",
+    "alias": null,
+    "definition_en": "Single Logical Device",
+    "definition_zh": "单逻辑设备（Single Logical Device）"
+  },
+  {
+    "term": "Smart I/O",
+    "alias": null,
+    "definition_en": "Enhanced I/O with additional protocol support.",
+    "definition_zh": "具有额外协议支持的增强 I/O。"
+  },
+  {
+    "term": "SP",
+    "alias": null,
+    "definition_en": "Security Protocol",
+    "definition_zh": "安全协议（Security Protocol）"
+  },
+  {
+    "term": "SPDM",
+    "alias": null,
+    "definition_en": "Security Protocol and Data Model",
+    "definition_zh": "安全协议与数据模型（Security Protocol and Data Model）"
+  },
+  {
+    "term": "SPDM over DOE",
+    "alias": null,
+    "definition_en": "Security Protocol and Data Model over Data Object Exchange as defined in PCIe Base Specification",
+    "definition_zh": "基于数据对象交换的安全协议与数据模型，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "SPID",
+    "alias": null,
+    "definition_en": "Source PID",
+    "definition_zh": "源 PID（Source PID）"
+  },
+  {
+    "term": "sPPR",
+    "alias": null,
+    "definition_en": "Soft Post Package Repair",
+    "definition_zh": "软封装后修复（Soft Post Package Repair）"
+  },
+  {
+    "term": "SRAT",
+    "alias": null,
+    "definition_en": "System Resource Affinity Table as defined in ACPI Specification",
+    "definition_zh": "系统资源亲和表，如 ACPI 规范所定义"
+  },
+  {
+    "term": "SRIS",
+    "alias": null,
+    "definition_en": "Separate Reference Clocks with Independent Spread Spectrum Clocking as defined in PCIe Base Specification",
+    "definition_zh": "具有独立扩频时钟的分离参考时钟，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "SV",
+    "alias": null,
+    "definition_en": "Secret Value",
+    "definition_zh": "秘密值（Secret Value）"
+  },
+  {
+    "term": "SVM",
+    "alias": null,
+    "definition_en": "Shared Virtual Memory",
+    "definition_zh": "共享虚拟内存（Shared Virtual Memory）"
+  },
+  {
+    "term": "SW",
+    "alias": null,
+    "definition_en": "Software",
+    "definition_zh": "软件（Software）"
+  },
+  {
+    "term": "Target",
+    "alias": null,
+    "definition_en": "Defined by TSP as a memory expander device that receives TSP requests.",
+    "definition_zh": "由 TSP 定义为接收 TSP 请求的内存扩展设备。"
+  },
+  {
+    "term": "TC",
+    "alias": null,
+    "definition_en": "Traffic Class",
+    "definition_zh": "流量类别（Traffic Class）"
+  },
+  {
+    "term": "TCB",
+    "alias": null,
+    "definition_en": "Trusted Computing Base - refers to the set of hardware, software and/or firmware entities that security assurances depend upon",
+    "definition_zh": "可信计算基（Trusted Computing Base）——安全保证所依赖的一组硬件、软件和/或固件实体"
+  },
+  {
+    "term": "TDISP",
+    "alias": null,
+    "definition_en": "PCI-SIG-defined TEE Device Interface Security Protocol",
+    "definition_zh": "PCI-SIG 定义的 TEE 设备接口安全协议"
+  },
+  {
+    "term": "TEE",
+    "alias": null,
+    "definition_en": "Trusted Execution Environment",
+    "definition_zh": "可信执行环境（Trusted Execution Environment）"
+  },
+  {
+    "term": "TEE Intent",
+    "alias": null,
+    "definition_en": "TEE or non-TEE intent of a memory request from an initiator defined by the opcodes utilized in the transaction.",
+    "definition_zh": "发起方内存请求的 TEE 或非 TEE 意图，由事务中使用的操作码定义。"
+  },
+  {
+    "term": "TE State",
+    "alias": null,
+    "definition_en": "TEE Exclusive State maintained by the device for each page or cacheline to enforce access control.",
+    "definition_zh": "设备为每个页或缓存行维护的 TEE 独占状态，用于强制访问控制。"
+  },
+  {
+    "term": "TLP",
+    "alias": null,
+    "definition_en": "Transaction Layer Packet as defined in PCIe Base Specification",
+    "definition_zh": "事务层包，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "TMAC",
+    "alias": null,
+    "definition_en": "Truncated Message Authentication Code",
+    "definition_zh": "截断消息认证码（Truncated Message Authentication Code）"
+  },
+  {
+    "term": "TRP",
+    "alias": null,
+    "definition_en": "Trailer Present",
+    "definition_zh": "存在尾部（Trailer Present）"
+  },
+  {
+    "term": "TSM",
+    "alias": null,
+    "definition_en": "TEE Security Manager. Logical entity within a host processor that is the TCB for a TVM and enforces security policies on the host.",
+    "definition_zh": "TEE 安全管理器。主机处理器内作为 TVM 的 TCB 并在主机上强制执行安全策略的逻辑实体。"
+  },
+  {
+    "term": "TSM RoT",
+    "alias": null,
+    "definition_en": "TEE Security Manager Root of Trust. The entity on the host that establishes the CMA/SPDM PrimarySession.",
+    "definition_zh": "TEE 安全管理器信任根。主机上建立 CMA/SPDM PrimarySession 的实体。"
+  },
+  {
+    "term": "TSP",
+    "alias": null,
+    "definition_en": "CXL-defined TEE Security Protocol. The collection of requirements and interfaces that allow memory devices to be utilized for confidential computing.",
+    "definition_zh": "CXL 定义的 TEE 安全协议。允许内存设备用于机密计算的一组要求与接口。"
+  },
+  {
+    "term": "TVM",
+    "alias": null,
+    "definition_en": "TEE Virtual Machine. A TEE that has the property of a virtual machine. A TVM does not need to trust the hypervisor that hosts the TVM.",
+    "definition_zh": "TEE 虚拟机。具有虚拟机属性的 TEE。TVM 无需信任托管该 TVM 的虚拟机监控器。"
+  },
+  {
+    "term": "TVMCKID",
+    "alias": null,
+    "definition_en": "CKID memory encryption key configured for use with TEE data.",
+    "definition_zh": "配置用于 TEE 数据的 CKID 内存加密密钥。"
+  },
+  {
+    "term": "UEFI",
+    "alias": null,
+    "definition_en": "Unified Extensible Firmware Interface",
+    "definition_zh": "统一可扩展固件接口（Unified Extensible Firmware Interface）"
+  },
+  {
+    "term": "UIE",
+    "alias": null,
+    "definition_en": "Uncorrectable Internal Error",
+    "definition_zh": "不可纠正内部错误（Uncorrectable Internal Error）"
+  },
+  {
+    "term": "UIG",
+    "alias": null,
+    "definition_en": "Upstream Interleave Granularity",
+    "definition_zh": "上游交织粒度（Upstream Interleave Granularity）"
+  },
+  {
+    "term": "UIO",
+    "alias": null,
+    "definition_en": "Unordered Input/Output",
+    "definition_zh": "无序输入/输出（Unordered Input/Output）"
+  },
+  {
+    "term": "UIW",
+    "alias": null,
+    "definition_en": "Upstream Interleave Ways",
+    "definition_zh": "上游交织路数（Upstream Interleave Ways）"
+  },
+  {
+    "term": "Upstream Port",
+    "alias": null,
+    "definition_en": "Physical port that can be an upstream switch port, or an Endpoint port, or an RCD Upstream Port.",
+    "definition_zh": "物理端口，可以是上游交换机端口、端点端口或 RCD 上游端口。"
+  },
+  {
+    "term": "UQID",
+    "alias": null,
+    "definition_en": "Unique Queue ID",
+    "definition_zh": "唯一队列 ID（Unique Queue ID）"
+  },
+  {
+    "term": "UR",
+    "alias": null,
+    "definition_en": "Unsupported Request",
+    "definition_zh": "不支持的请求（Unsupported Request）"
+  },
+  {
+    "term": "USAR",
+    "alias": null,
+    "definition_en": "Upstream Acceptance Rules",
+    "definition_zh": "上游接受规则（Upstream Acceptance Rules）"
+  },
+  {
+    "term": "USP",
+    "alias": null,
+    "definition_en": "Upstream Switch Port",
+    "definition_zh": "上游交换机端口（Upstream Switch Port）"
+  },
+  {
+    "term": "UTC",
+    "alias": null,
+    "definition_en": "Coordinated Universal Time",
+    "definition_zh": "协调世界时（Coordinated Universal Time）"
+  },
+  {
+    "term": "UUID",
+    "alias": null,
+    "definition_en": "Universally Unique IDentifier as defined in the IETF RFC 4122 Specification",
+    "definition_zh": "通用唯一标识符，如 IETF RFC 4122 规范所定义"
+  },
+  {
+    "term": "VA",
+    "alias": null,
+    "definition_en": "Virtual Address",
+    "definition_zh": "虚拟地址（Virtual Address）"
+  },
+  {
+    "term": "VC",
+    "alias": null,
+    "definition_en": "Virtual Channel",
+    "definition_zh": "虚拟通道（Virtual Channel）"
+  },
+  {
+    "term": "VCS",
+    "alias": null,
+    "definition_en": "Virtual CXL Switch. Includes entities within the physical switch belonging to a single VH. It is identified using the VCS ID.",
+    "definition_zh": "虚拟 CXL 交换机。包括属于单个 VH 的物理交换机内实体。使用 VCS ID 标识。"
+  },
+  {
+    "term": "VDM",
+    "alias": null,
+    "definition_en": "Vendor Defined Message",
+    "definition_zh": "厂商定义消息（Vendor Defined Message）"
+  },
+  {
+    "term": "vDSP",
+    "alias": null,
+    "definition_en": "Downstream vPPB in a Host ES that is bound to one vUSP within a specific Downstream ES.",
+    "definition_zh": "Host ES 中绑定到特定下游 ES 内某个 vUSP 的下游 vPPB。"
+  },
+  {
+    "term": "VH",
+    "alias": null,
+    "definition_en": "Virtual Hierarchy. Everything from the CXL RP down, including the CXL RP, CXL PPBs, and CXL Endpoints. Hierarchy ID means the same as PCIe.",
+    "definition_zh": "虚拟层级。从 CXL RP 向下的一切，包括 CXL RP、CXL PPB 与 CXL 端点。Hierarchy ID 含义与 PCIe 相同。"
+  },
+  {
+    "term": "VH Mode",
+    "alias": null,
+    "definition_en": "A mode of operation where CXL RP is the root of the hierarchy",
+    "definition_zh": "以 CXL RP 为层级根的运行模式"
+  },
+  {
+    "term": "VID",
+    "alias": null,
+    "definition_en": "Vendor ID",
+    "definition_zh": "厂商 ID（Vendor ID）"
+  },
+  {
+    "term": "vLSM",
+    "alias": null,
+    "definition_en": "Virtual Link State Machine",
+    "definition_zh": "虚拟链路状态机（Virtual Link State Machine）"
+  },
+  {
+    "term": "VM",
+    "alias": null,
+    "definition_en": "Virtual Machine",
+    "definition_zh": "虚拟机（Virtual Machine）"
+  },
+  {
+    "term": "VMM",
+    "alias": null,
+    "definition_en": "Virtual Machine Manager",
+    "definition_zh": "虚拟机监控器（Virtual Machine Manager）"
+  },
+  {
+    "term": "vPPB",
+    "alias": null,
+    "definition_en": "Virtual PCI-to-PCI Bridge inside a CXL switch that is host-owned. Can be bound to a port that is either disconnected, connected to a PCIe component or connected to a CXL component.",
+    "definition_zh": "CXL 交换机中由主机拥有的虚拟 PCI 到 PCI 桥。可绑定到断开、连接到 PCIe 组件或连接到 CXL 组件的端口。"
+  },
+  {
+    "term": "VTV",
+    "alias": null,
+    "definition_en": "VendPrefixL0 Target Vector",
+    "definition_zh": "VendPrefixL0 目标向量（VendPrefixL0 Target Vector）"
+  },
+  {
+    "term": "vUSP",
+    "alias": null,
+    "definition_en": "Upstream vPPB in a Downstream ES that is bound to one vDSP within a specific Host ES.",
+    "definition_zh": "下游 ES 中绑定到特定 Host ES 内某个 vDSP 的上游 vPPB。"
+  },
+  {
+    "term": "Warm Reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification",
+    "definition_zh": "热/温复位，如 PCIe 基础规范所定义"
+  },
+  {
+    "term": "XSDT",
+    "alias": null,
+    "definition_en": "Extended System Description Table as defined in ACPI Specification",
+    "definition_zh": "扩展系统描述表，如 ACPI 规范所定义"
+  }
+]
