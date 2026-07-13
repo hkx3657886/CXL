@@ -1,0 +1,1832 @@
+[
+  {
+    "term": "AAD",
+    "alias": null,
+    "definition_en": "Additional Authentication Data - data that is integrity protected but not encrypted"
+  },
+  {
+    "term": "Accelerator",
+    "alias": "Acc",
+    "definition_en": "Devices that may be used by software running on Host processors to offload or perform any type of compute or I/O task. Examples of accelerators include programmable agents (e.g., GPU/GPGPU), fixed- function agents, or reconfigurable agents such as FPGAs."
+  },
+  {
+    "term": "ACL",
+    "alias": null,
+    "definition_en": "Access Control List"
+  },
+  {
+    "term": "ACPI",
+    "alias": null,
+    "definition_en": "Advanced Configuration and Power Interface"
+  },
+  {
+    "term": "ACS",
+    "alias": null,
+    "definition_en": "Access Control Services as defined in PCIe Base Specification"
+  },
+  {
+    "term": "ADF",
+    "alias": null,
+    "definition_en": "All-Data Flit"
+  },
+  {
+    "term": "AER",
+    "alias": null,
+    "definition_en": "Advanced Error Reporting as defined in PCIe Base Specification"
+  },
+  {
+    "term": "AES-GCM",
+    "alias": null,
+    "definition_en": "Advanced Encryption Standard-Galois Counter Mode as defined in NIST* publication [AES-GCM]"
+  },
+  {
+    "term": "AIC",
+    "alias": null,
+    "definition_en": "Add In Card"
+  },
+  {
+    "term": "Ak",
+    "alias": null,
+    "definition_en": "Acknowledgment (bit/field name)"
+  },
+  {
+    "term": "ALMP",
+    "alias": null,
+    "definition_en": "ARB/MUX Link Management Packet"
+  },
+  {
+    "term": "AP",
+    "alias": null,
+    "definition_en": "Auto Precharge"
+  },
+  {
+    "term": "ARB/MUX",
+    "alias": null,
+    "definition_en": "Arbiter/Multiplexer"
+  },
+  {
+    "term": "ARI",
+    "alias": null,
+    "definition_en": "Alternate Routing ID as defined in PCIe Base Specification."
+  },
+  {
+    "term": "ASI",
+    "alias": null,
+    "definition_en": "Advanced Switching Interconnect"
+  },
+  {
+    "term": "ASL",
+    "alias": null,
+    "definition_en": "ACPI Source Language as defined in ACPI Specification"
+  },
+  {
+    "term": "ASPM",
+    "alias": null,
+    "definition_en": "Active State Power Management"
+  },
+  {
+    "term": "ATS",
+    "alias": null,
+    "definition_en": "Address Translation Services as defined in PCIe Base Specification"
+  },
+  {
+    "term": "Attestation",
+    "alias": null,
+    "definition_en": "Process of providing a digital signature for a set of measurements from a device and verifying those signatures and measurements on a host."
+  },
+  {
+    "term": "Authentication",
+    "alias": null,
+    "definition_en": "Process of determining whether an entity is who or what it claims to be."
+  },
+  {
+    "term": "BAR",
+    "alias": null,
+    "definition_en": "Base Address Register as defined in PCIe Base Specification"
+  },
+  {
+    "term": "_BBN",
+    "alias": null,
+    "definition_en": "Base Bus Number as defined in ACPI Specification"
+  },
+  {
+    "term": "BCC",
+    "alias": null,
+    "definition_en": "Base Class Code as defined in PCIe Base Specification"
+  },
+  {
+    "term": "BDF",
+    "alias": null,
+    "definition_en": "Bus Device Function"
+  },
+  {
+    "term": "BE",
+    "alias": null,
+    "definition_en": "Byte Enable as defined in PCIe Base Specification"
+  },
+  {
+    "term": "BEI",
+    "alias": null,
+    "definition_en": "BAR Equivalent Indicator"
+  },
+  {
+    "term": "BEP",
+    "alias": null,
+    "definition_en": "Byte-Enables Present"
+  },
+  {
+    "term": "BI",
+    "alias": null,
+    "definition_en": "Back-Invalidate"
+  },
+  {
+    "term": "Bias Flip",
+    "alias": null,
+    "definition_en": "Bias refers to coherence tracking of HDM-D* memory regions by the owning device to indicate that the host may have a cache copy. The Bias Flip is a process used to change the bias state that indicates the host has a cached copy of the line (Bias=Host) by invalidating the cache state for the corresponding address(es) in the host such that the device has exclusive access (Bias=Device)."
+  },
+  {
+    "term": "BIR",
+    "alias": null,
+    "definition_en": "BAR Indicator Register as defined in PCIe Base Specification"
+  },
+  {
+    "term": "BIRsp",
+    "alias": null,
+    "definition_en": "Back-Invalidate Response"
+  },
+  {
+    "term": "BISnp",
+    "alias": null,
+    "definition_en": "Back-Invalidate Snoop"
+  },
+  {
+    "term": "BMC",
+    "alias": null,
+    "definition_en": "Baseboard Management Controller"
+  },
+  {
+    "term": "BME",
+    "alias": null,
+    "definition_en": "Bus Master Enable"
+  },
+  {
+    "term": "BW",
+    "alias": null,
+    "definition_en": "Bandwidth"
+  },
+  {
+    "term": "CA",
+    "alias": null,
+    "definition_en": "Certificate Authority; Congestion Avoidance"
+  },
+  {
+    "term": "CAM",
+    "alias": null,
+    "definition_en": "Content Addressable Memory"
+  },
+  {
+    "term": "CAS",
+    "alias": null,
+    "definition_en": "Column Address Strobe"
+  },
+  {
+    "term": "_CBR",
+    "alias": null,
+    "definition_en": "CXL Host Bridge Register Info as defined in ACPI Specification"
+  },
+  {
+    "term": "CCI",
+    "alias": null,
+    "definition_en": "Component Command Interface"
+  },
+  {
+    "term": "CCID",
+    "alias": null,
+    "definition_en": "CXL Cache ID"
+  },
+  {
+    "term": "CDAT",
+    "alias": null,
+    "definition_en": "Coherent Device Attribute Table, a table that describes performance characteristics of a CXL device or a CXL switch."
+  },
+  {
+    "term": "CDL",
+    "alias": null,
+    "definition_en": "CXL DevLoad"
+  },
+  {
+    "term": "CEDT",
+    "alias": null,
+    "definition_en": "CXL Early Discovery Table"
+  },
+  {
+    "term": "CEL",
+    "alias": null,
+    "definition_en": "Command Effects Log"
+  },
+  {
+    "term": "CFMWS",
+    "alias": null,
+    "definition_en": "CXL Fixed Memory Window Structure"
+  },
+  {
+    "term": "CHBCR",
+    "alias": null,
+    "definition_en": "CXL Host Bridge Component Registers"
+  },
+  {
+    "term": "CHBS",
+    "alias": null,
+    "definition_en": "CXL Host Bridge Structure"
+  },
+  {
+    "term": "_CID",
+    "alias": null,
+    "definition_en": "Compatible ID as defined in ACPI Specification"
+  },
+  {
+    "term": "CIE",
+    "alias": null,
+    "definition_en": "Correctable Internal Error"
+  },
+  {
+    "term": "CIKMA",
+    "alias": null,
+    "definition_en": "CXL.cachemem IDE Key Management Agent"
+  },
+  {
+    "term": "CKID",
+    "alias": null,
+    "definition_en": "Context Key IDentifier passed in the protocol flit for identifying security keys utilized for memory encryption using TSP."
+  },
+  {
+    "term": "CMA",
+    "alias": null,
+    "definition_en": "Component Measurement and Authentication as defined in PCIe Base Specification"
+  },
+  {
+    "term": "Coh",
+    "alias": null,
+    "definition_en": "Coherency"
+  },
+  {
+    "term": "Cold reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification"
+  },
+  {
+    "term": "Comprehensive Trust",
+    "alias": null,
+    "definition_en": "Security model in which every device available to the TEE is presumed to be trusted by all TEEs in the system."
+  },
+  {
+    "term": "CPMU",
+    "alias": null,
+    "definition_en": "CXL Performance Monitoring Unit"
+  },
+  {
+    "term": "CRD",
+    "alias": null,
+    "definition_en": "Credit Return(ed)"
+  },
+  {
+    "term": "CQID",
+    "alias": null,
+    "definition_en": "Command Queue ID"
+  },
+  {
+    "term": "CSDS",
+    "alias": null,
+    "definition_en": "CXL System Description Structure"
+  },
+  {
+    "term": "CSR",
+    "alias": null,
+    "definition_en": "Configuration Space register"
+  },
+  {
+    "term": "CT",
+    "alias": null,
+    "definition_en": "Crypto Timeout"
+  },
+  {
+    "term": "CVME",
+    "alias": null,
+    "definition_en": "Corrected Volatile Memory Error, a corrected error associated with volatile memory."
+  },
+  {
+    "term": "CXIMS",
+    "alias": null,
+    "definition_en": "CXL XOR Interleave Math Structure"
+  },
+  {
+    "term": "CXL",
+    "alias": null,
+    "definition_en": "Compute Express Link, a low-latency, high-bandwidth link that supports dynamic protocol muxing of coherency, memory access, and I/O protocols, thus enabling attachment of coherent accelerators or memory devices."
+  },
+  {
+    "term": "CXL.cache",
+    "alias": null,
+    "definition_en": "Agent coherency protocol that supports device caching of Host memory."
+  },
+  {
+    "term": "CXL.cachemem",
+    "alias": null,
+    "definition_en": "CXL.cache/CXL.mem"
+  },
+  {
+    "term": "CXL.io",
+    "alias": null,
+    "definition_en": "PCIe-based non-coherent I/O protocol with enhancements for accelerator support."
+  },
+  {
+    "term": "CXL.mem",
+    "alias": null,
+    "definition_en": "Memory access protocol that supports device-attached memory."
+  },
+  {
+    "term": "CXL Memory Device",
+    "alias": null,
+    "definition_en": "CXL device with a specific Class Code as defined in Section 8.1.12.1."
+  },
+  {
+    "term": "D2H",
+    "alias": null,
+    "definition_en": "Device to Host"
+  },
+  {
+    "term": "DAPM",
+    "alias": null,
+    "definition_en": "Deepest Allowable Power Management state"
+  },
+  {
+    "term": "DC",
+    "alias": null,
+    "definition_en": "Dynamic Capacity"
+  },
+  {
+    "term": "DCD",
+    "alias": null,
+    "definition_en": "Dynamic Capacity Device"
+  },
+  {
+    "term": "DCOH",
+    "alias": null,
+    "definition_en": "Device Coherency agent on the device that is responsible for resolving coherency with respect to device caches and managing Bias states."
+  },
+  {
+    "term": "DDR",
+    "alias": null,
+    "definition_en": "Double Data Rate"
+  },
+  {
+    "term": "DH",
+    "alias": null,
+    "definition_en": "Data Header"
+  },
+  {
+    "term": "DHSW-FM",
+    "alias": null,
+    "definition_en": "Dual Host, Fabric Managed, Switch Attached SLD EP"
+  },
+  {
+    "term": "DHSW-FM-MLD",
+    "alias": null,
+    "definition_en": "Dual Host, Fabric Managed, Switch Attached MLD EP"
+  },
+  {
+    "term": "DLLP",
+    "alias": null,
+    "definition_en": "Data Link Layer Packet as defined in PCIe Base Specification"
+  },
+  {
+    "term": "DM",
+    "alias": null,
+    "definition_en": "Data Mask"
+  },
+  {
+    "term": "DMP",
+    "alias": null,
+    "definition_en": "Device Media Partition"
+  },
+  {
+    "term": "DMTF",
+    "alias": null,
+    "definition_en": "Distributed Management Task Force"
+  },
+  {
+    "term": "DOE",
+    "alias": null,
+    "definition_en": "Data Object Exchange as defined in PCIe Base Specification"
+  },
+  {
+    "term": "Domain",
+    "alias": null,
+    "definition_en": "Set of host ports and devices within a single coherent HPA space"
+  },
+  {
+    "term": "Downstream ES",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, an Edge Switch other than the Host ES."
+  },
+  {
+    "term": "Downstream Port",
+    "alias": null,
+    "definition_en": "Physical port that can be a root port or a downstream switch port or an RCH Downstream Port"
+  },
+  {
+    "term": "DPA",
+    "alias": null,
+    "definition_en": "Device Physical Address. DPA forms a device-scoped flat address space. An LD-FAM device presents a distinct DPA space per LD. A G-FAM device presents the same DPA space to all hosts. The CXL HDM decoders or GFD decoders map HPA into DPA space."
+  },
+  {
+    "term": "DPC",
+    "alias": null,
+    "definition_en": "Downstream Port Containment as defined in PCIe Base Specification"
+  },
+  {
+    "term": "DPID",
+    "alias": null,
+    "definition_en": "Destination PID"
+  },
+  {
+    "term": "DRS",
+    "alias": null,
+    "definition_en": "Data Response"
+  },
+  {
+    "term": "DRT",
+    "alias": null,
+    "definition_en": "DPID Routing Table"
+  },
+  {
+    "term": "DSAR",
+    "alias": null,
+    "definition_en": "Downstream Acceptance Rules"
+  },
+  {
+    "term": "_DSM",
+    "alias": null,
+    "definition_en": "Device Specific Method as defined in ACPI Specification"
+  },
+  {
+    "term": "DSM",
+    "alias": null,
+    "definition_en": "Device Security Manager. A logical entity in a device that can be admitted into the TCB for a TVM and enforces security policies on the device."
+  },
+  {
+    "term": "DSMAD",
+    "alias": null,
+    "definition_en": "Device Scoped Memory Affinity Domain as defined in Coherent Device Attribute Table (CDAT) Specification"
+  },
+  {
+    "term": "DSMAS",
+    "alias": null,
+    "definition_en": "Device Scoped Memory Affinity Structure as defined in Coherent Device Attribute Table (CDAT) Specification"
+  },
+  {
+    "term": "DSP",
+    "alias": null,
+    "definition_en": "Downstream Switch Port"
+  },
+  {
+    "term": "DTLB",
+    "alias": null,
+    "definition_en": "Data Translation Lookaside Buffer"
+  },
+  {
+    "term": "DTRCS",
+    "alias": null,
+    "definition_en": "Device Tracked Requestor Cache State – The requestor cache coherency state tracked by the device."
+  },
+  {
+    "term": "DUT",
+    "alias": null,
+    "definition_en": "Device Under Test"
+  },
+  {
+    "term": "DVSEC",
+    "alias": null,
+    "definition_en": "Designated Vendor-Specific Extended Capability as defined in PCIe Base Specification"
+  },
+  {
+    "term": "ECC",
+    "alias": null,
+    "definition_en": "Error-correcting Code"
+  },
+  {
+    "term": "ECN",
+    "alias": null,
+    "definition_en": "Engineering Change Notice"
+  },
+  {
+    "term": "ECS",
+    "alias": null,
+    "definition_en": "Error Check Scrub"
+  },
+  {
+    "term": "ECRC",
+    "alias": null,
+    "definition_en": "End-to-End CRC"
+  },
+  {
+    "term": "EDB",
+    "alias": null,
+    "definition_en": "End Bad as defined in PCIe Base Specification"
+  },
+  {
+    "term": "Edge DSP",
+    "alias": null,
+    "definition_en": "PBR downstream switch port that connects to a device (including a GFD) or an HBR USP"
+  },
+  {
+    "term": "Edge Port",
+    "alias": null,
+    "definition_en": "PBR switch port suitable for connecting to an RP, device, or HBR USP."
+  },
+  {
+    "term": "Edge Switch (ES)",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, a PBR switch that contains one or more Edge Ports."
+  },
+  {
+    "term": "Edge USP",
+    "alias": null,
+    "definition_en": "PBR upstream switch port that connects to a root port"
+  },
+  {
+    "term": "eDPC",
+    "alias": null,
+    "definition_en": "Enhanced Downstream Port Control as defined in PCIe Base Specification"
+  },
+  {
+    "term": "EDS",
+    "alias": null,
+    "definition_en": "End of Data Stream"
+  },
+  {
+    "term": "EFN",
+    "alias": null,
+    "definition_en": "Event Firmware Notification"
+  },
+  {
+    "term": "EIEOS",
+    "alias": null,
+    "definition_en": "Electrical Idle Exit Ordered Set as defined in PCIe Base Specification"
+  },
+  {
+    "term": "EIOS",
+    "alias": null,
+    "definition_en": "Electrical Idle Ordered Set as defined in PCIe Base Specification"
+  },
+  {
+    "term": "EIOSQ",
+    "alias": null,
+    "definition_en": "EIOS Sequence as defined in PCIe Base Specification"
+  },
+  {
+    "term": "EMD",
+    "alias": null,
+    "definition_en": "Extended Metadata"
+  },
+  {
+    "term": "EMV",
+    "alias": null,
+    "definition_en": "Extended MetaValue"
+  },
+  {
+    "term": "ENIW",
+    "alias": null,
+    "definition_en": "Encoded Number of Interleave Ways"
+  },
+  {
+    "term": "EP",
+    "alias": null,
+    "definition_en": "Endpoint"
+  },
+  {
+    "term": "eRCD",
+    "alias": null,
+    "definition_en": "Exclusive Restricted CXL Device (formerly known as CXL 1.1 only Device). eRCD is a CXL device component that can operate only in RCD mode."
+  },
+  {
+    "term": "eRCH",
+    "alias": null,
+    "definition_en": "Exclusive Restricted CXL Host (formerly known as CXL 1.1 only host). eRCH is a CXL host component that can operate only in RCD mode."
+  },
+  {
+    "term": "evPPB",
+    "alias": null,
+    "definition_en": "Egress vPPB"
+  },
+  {
+    "term": "Explicit Access Control",
+    "alias": null,
+    "definition_en": "TE State ownership tracking where the state change occurs explicitly utilizing a TE State change message that is independent of each memory transaction."
+  },
+  {
+    "term": "Fabric Port (FPort)",
+    "alias": null,
+    "definition_en": "PBR switch port that connects to another PBR switch port."
+  },
+  {
+    "term": "FAM",
+    "alias": null,
+    "definition_en": "Fabric-Attached Memory. HDM within a Type 2 or Type 3 device that can be made accessible to multiple hosts concurrently. Each HDM region can either be pooled (dedicated to a single host) or shared (accessible concurrently by multiple hosts)."
+  },
+  {
+    "term": "FAST",
+    "alias": null,
+    "definition_en": "Fabric Address Segment Table"
+  },
+  {
+    "term": "FC",
+    "alias": null,
+    "definition_en": "Flow Control"
+  },
+  {
+    "term": "FCBP",
+    "alias": null,
+    "definition_en": "Flow Control Backpressured"
+  },
+  {
+    "term": "FEC",
+    "alias": null,
+    "definition_en": "Forwarded Error Correction"
+  },
+  {
+    "term": "Flex Bus",
+    "alias": null,
+    "definition_en": "A flexible high-speed port that is configured to support either PCIe or CXL."
+  },
+  {
+    "term": "Flex Bus.CXL",
+    "alias": null,
+    "definition_en": "CXL protocol over a Flex Bus interconnect."
+  },
+  {
+    "term": "Flit",
+    "alias": null,
+    "definition_en": "Link Layer Unit of Transfer"
+  },
+  {
+    "term": "FLR",
+    "alias": null,
+    "definition_en": "Function Level Reset"
+  },
+  {
+    "term": "FM",
+    "alias": null,
+    "definition_en": "The Fabric Manager is an entity separate from the switch or host firmware that controls aspects of the system related to binding and management of pooled ports and devices."
+  },
+  {
+    "term": "FMLD",
+    "alias": null,
+    "definition_en": "Fabric Manager-owned Logical Device"
+  },
+  {
+    "term": "FM-owned PPB",
+    "alias": null,
+    "definition_en": "Link that contains traffic from multiple VCSs or an unbound physical port."
+  },
+  {
+    "term": "Fundamental Reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification"
+  },
+  {
+    "term": "FW",
+    "alias": null,
+    "definition_en": "Firmware"
+  },
+  {
+    "term": "GAM",
+    "alias": null,
+    "definition_en": "GFD Async Message"
+  },
+  {
+    "term": "GAE",
+    "alias": null,
+    "definition_en": "Global Memory Access Endpoint"
+  },
+  {
+    "term": "GDT",
+    "alias": null,
+    "definition_en": "GFD Decoder Table"
+  },
+  {
+    "term": "G-FAM",
+    "alias": null,
+    "definition_en": "Global FAM. Highly scalable form of FAM that is presented to hosts without using Logical Devices (LDs). Like LD-FAM, G-FAM presents HDM that can be pooled or shared."
+  },
+  {
+    "term": "GFD",
+    "alias": null,
+    "definition_en": "G-FAM device"
+  },
+  {
+    "term": "GFD decoder",
+    "alias": null,
+    "definition_en": "HPA-to-DPA translation mechanism inside a GFD"
+  },
+  {
+    "term": "GI",
+    "alias": null,
+    "definition_en": "Generic Affinity"
+  },
+  {
+    "term": "GIM",
+    "alias": null,
+    "definition_en": "Global Integrated Memory"
+  },
+  {
+    "term": "GMV",
+    "alias": null,
+    "definition_en": "Global Memory Mapping Vector"
+  },
+  {
+    "term": "GO",
+    "alias": null,
+    "definition_en": "Global Observation. This is used in the context of coherence protocol as a message to know when data is guaranteed to be observed by all agents in the coherence domain for either a read or a write."
+  },
+  {
+    "term": "GPF",
+    "alias": null,
+    "definition_en": "Global Persistent Flush"
+  },
+  {
+    "term": "H2D",
+    "alias": null,
+    "definition_en": "Host to Device"
+  },
+  {
+    "term": "HA",
+    "alias": null,
+    "definition_en": "Home Agent. This is the agent on the host that is responsible for resolving system wide coherency for a given address."
+  },
+  {
+    "term": "HBIG",
+    "alias": null,
+    "definition_en": "Host Bridge Interleave Granularity"
+  },
+  {
+    "term": "HBM",
+    "alias": null,
+    "definition_en": "High-Bandwidth Memory"
+  },
+  {
+    "term": "HBR",
+    "alias": null,
+    "definition_en": "Hierarchy Based Routing"
+  },
+  {
+    "term": "HBR link",
+    "alias": null,
+    "definition_en": "Link operating in a mode, where all flits are in HBR format"
+  },
+  {
+    "term": "HBR switch",
+    "alias": null,
+    "definition_en": "Switch that supports only HBR"
+  },
+  {
+    "term": "HDM",
+    "alias": null,
+    "definition_en": "Host-managed Device Memory. Device-attached memory that is mapped to system coherent address space and accessible to the Host using standard write-back semantics. Memory located on a CXL device can be mapped as either HDM or PDM."
+  },
+  {
+    "term": "HDM-H",
+    "alias": null,
+    "definition_en": "Host-only Coherent HDM region type. Used only for Type 3 Devices."
+  },
+  {
+    "term": "HDM-D",
+    "alias": null,
+    "definition_en": "Device Coherent HDM region type. Used only for Type 2 devices that rely on CXL.cache to manage coherence with the host."
+  },
+  {
+    "term": "HDM-DB",
+    "alias": null,
+    "definition_en": "Device Coherent using Back-Invalidate HDM region type. Can be used by Type 2 devices or Type 3 devices."
+  },
+  {
+    "term": "_HID",
+    "alias": null,
+    "definition_en": "Hardware ID as defined in ACPI Specification"
+  },
+  {
+    "term": "HMAT",
+    "alias": null,
+    "definition_en": "Heterogeneous Memory Attribute Table as defined in ACPI Specification"
+  },
+  {
+    "term": "Host ES",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, the single Edge Switch connected to the RP."
+  },
+  {
+    "term": "Hot Reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification"
+  },
+  {
+    "term": "HPA",
+    "alias": null,
+    "definition_en": "Host Physical Address"
+  },
+  {
+    "term": "HPC",
+    "alias": null,
+    "definition_en": "High-Performance Computing"
+  },
+  {
+    "term": "hPPR",
+    "alias": null,
+    "definition_en": "Hard Post Package Repair"
+  },
+  {
+    "term": "HW",
+    "alias": null,
+    "definition_en": "Hardware"
+  },
+  {
+    "term": "IDE",
+    "alias": null,
+    "definition_en": "Integrity and Data Encryption"
+  },
+  {
+    "term": "IDT",
+    "alias": null,
+    "definition_en": "Interleave DPID Table"
+  },
+  {
+    "term": "IG",
+    "alias": null,
+    "definition_en": "Interleave Granularity"
+  },
+  {
+    "term": "IGB",
+    "alias": null,
+    "definition_en": "Interleave Granularity in number of bytes"
+  },
+  {
+    "term": "Intermediate Fabric Switch",
+    "alias": null,
+    "definition_en": "Within the context of a single VH, a PBR switch that forwards VH traffic but is not a Host ES or downstream ES."
+  },
+  {
+    "term": "IOMMU",
+    "alias": null,
+    "definition_en": "I/O Memory Management Unit as defined in PCIe Base Specification"
+  },
+  {
+    "term": "Implicit Access Control",
+    "alias": null,
+    "definition_en": "TE State ownership tracking where the state change occurs implicitly as part of executing each memory transaction."
+  },
+  {
+    "term": "Initiator",
+    "alias": null,
+    "definition_en": "Defined by TSP as a host or accelerator device that issues TSP requests."
+  },
+  {
+    "term": "IP2PM",
+    "alias": null,
+    "definition_en": "Independent Power Manager to (Master) Power Manager, PM messages from the device to the host."
+  },
+  {
+    "term": "ISL",
+    "alias": null,
+    "definition_en": "Inter-Switch Link. PBR link that connects Fabric Ports."
+  },
+  {
+    "term": "ISP",
+    "alias": null,
+    "definition_en": "Interleave Set Position"
+  },
+  {
+    "term": "IV",
+    "alias": null,
+    "definition_en": "Initialization Vector"
+  },
+  {
+    "term": "IW",
+    "alias": null,
+    "definition_en": "Interleave Ways"
+  },
+  {
+    "term": "IWB",
+    "alias": null,
+    "definition_en": "Implicit Writeback"
+  },
+  {
+    "term": "LAV",
+    "alias": null,
+    "definition_en": "LDST Access Vector"
+  },
+  {
+    "term": "LD",
+    "alias": null,
+    "definition_en": "Logical Device. Entity that represents a CXL Endpoint that is bound to a VCS. An SLD contains one LD. An MLD contains multiple LDs."
+  },
+  {
+    "term": "LDST",
+    "alias": null,
+    "definition_en": "LD-FAM Segment Table"
+  },
+  {
+    "term": "LD-FAM",
+    "alias": null,
+    "definition_en": "FAM that is presented to hosts via Logical Devices (LDs)."
+  },
+  {
+    "term": "Link Layer Clock",
+    "alias": null,
+    "definition_en": "CXL.cachemem link layer clock rate usually defined by the flit rate during normal operation."
+  },
+  {
+    "term": "LLC",
+    "alias": null,
+    "definition_en": "Last Level Cache"
+  },
+  {
+    "term": "LLCRD",
+    "alias": null,
+    "definition_en": "Link Layer Credit"
+  },
+  {
+    "term": "LLCTRL",
+    "alias": null,
+    "definition_en": "Link Layer Control"
+  },
+  {
+    "term": "LLR",
+    "alias": null,
+    "definition_en": "Link Layer Retry"
+  },
+  {
+    "term": "LLRB",
+    "alias": null,
+    "definition_en": "Link Layer Retry Buffer"
+  },
+  {
+    "term": "LOpt",
+    "alias": null,
+    "definition_en": "Latency-Optimized"
+  },
+  {
+    "term": "LRSM",
+    "alias": null,
+    "definition_en": "Local Retry State Machine"
+  },
+  {
+    "term": "LRU",
+    "alias": null,
+    "definition_en": "Least recently used"
+  },
+  {
+    "term": "LSA",
+    "alias": null,
+    "definition_en": "Label Storage Area"
+  },
+  {
+    "term": "LSM",
+    "alias": null,
+    "definition_en": "Link State Machine"
+  },
+  {
+    "term": "LTR",
+    "alias": null,
+    "definition_en": "Latency Tolerance Reporting"
+  },
+  {
+    "term": "LTSSM",
+    "alias": null,
+    "definition_en": "Link Training and Status State Machine as defined in PCIe Base Specification"
+  },
+  {
+    "term": "LUN",
+    "alias": null,
+    "definition_en": "Logical Unit Number"
+  },
+  {
+    "term": "M2S",
+    "alias": null,
+    "definition_en": "Master to Subordinate"
+  },
+  {
+    "term": "MAC",
+    "alias": null,
+    "definition_en": "Message Authentication Code; also referred to as Authentication Tag or Integrity value."
+  },
+  {
+    "term": "MAC epoch",
+    "alias": null,
+    "definition_en": "Set of flits which are aggregated together for MAC computation."
+  },
+  {
+    "term": "MB",
+    "alias": null,
+    "definition_en": "Megabyte - 220 bytes (1,048,576 bytes)"
+  },
+  {
+    "term": "Mailbox",
+    "alias": null,
+    "definition_en": "(No definition provided in source table.)"
+  },
+  {
+    "term": "MC",
+    "alias": null,
+    "definition_en": "Memory Controller"
+  },
+  {
+    "term": "MCA",
+    "alias": null,
+    "definition_en": "Machine Check Architecture"
+  },
+  {
+    "term": "MCTP",
+    "alias": null,
+    "definition_en": "Management Component Transport Protocol"
+  },
+  {
+    "term": "MDH",
+    "alias": null,
+    "definition_en": "Multi-Data Header"
+  },
+  {
+    "term": "Measurement",
+    "alias": null,
+    "definition_en": "Representation of firmware/software or configuration data on a device."
+  },
+  {
+    "term": "MEC",
+    "alias": null,
+    "definition_en": "Multiple Event Counting"
+  },
+  {
+    "term": "MEFN",
+    "alias": null,
+    "definition_en": "Memory Error Firmware Notification. An EFN that is used to report memory errors."
+  },
+  {
+    "term": "Memory Group",
+    "alias": null,
+    "definition_en": "Set of DC blocks that can be accessed by the same set of requesters."
+  },
+  {
+    "term": "Memory Sparing",
+    "alias": null,
+    "definition_en": "Repair function that replaces a portion of memory (the “spared memory”) with a portion of functional memory at that same DPA."
+  },
+  {
+    "term": "MESI",
+    "alias": null,
+    "definition_en": "Modified, Exclusive, Shared, and Invalid cache coherence protocol"
+  },
+  {
+    "term": "MGT",
+    "alias": null,
+    "definition_en": "Memory Group Table"
+  },
+  {
+    "term": "MH-MLD",
+    "alias": null,
+    "definition_en": "Multi-headed MLD. CXL component that contains multiple CXL ports, each presenting an MLD or SLD. The ports must correctly operate when connected to any combination of common or different hosts. The FM API is used to configure each LD as well as the overall MH-MLD. Currently, MH-MLDs are architected only for Type 3 LDs. MH-MLDs are considered a specialized type of MLD and, as such, are subject to all functional and behavioral requirements of MLDs."
+  },
+  {
+    "term": "MH-SLD",
+    "alias": null,
+    "definition_en": "Multi-headed SLD. CXL component that contains multiple CXL ports, each presenting an SLD. The ports must correctly operate when connected to any combination of common or different hosts. The FM API is used to configure each SLD as well as the overall MH-SLD. Currently, MH-SLDs are architected only for Type 3 LDs."
+  },
+  {
+    "term": "ML",
+    "alias": null,
+    "definition_en": "Machine Learning"
+  },
+  {
+    "term": "MLD",
+    "alias": null,
+    "definition_en": "Multi-Logical Device. CXL component that contains multiple LDs, out of which one LD is reserved for configuration via the FM API, and each remaining LD is suitable for assignment to a different host. Currently MLDs are architected only for Type 3 LDs."
+  },
+  {
+    "term": "MLD Port",
+    "alias": null,
+    "definition_en": "An MLD Port is one that has linked up with an MLD Component. The port is natively bound to an FM- owned PPB inside the switch."
+  },
+  {
+    "term": "MMIO",
+    "alias": null,
+    "definition_en": "Memory Mapped I/O"
+  },
+  {
+    "term": "MR",
+    "alias": null,
+    "definition_en": "Multi-Root"
+  },
+  {
+    "term": "MRL",
+    "alias": null,
+    "definition_en": "Manually-operated Retention Latch as defined in PCIe Base Specification"
+  },
+  {
+    "term": "MS0",
+    "alias": null,
+    "definition_en": "Meta0-State"
+  },
+  {
+    "term": "MSB",
+    "alias": null,
+    "definition_en": "Most Significant Bit"
+  },
+  {
+    "term": "MSE",
+    "alias": null,
+    "definition_en": "Memory Space Enable"
+  },
+  {
+    "term": "MSI/MSI-X",
+    "alias": null,
+    "definition_en": "Message Signaled Interrupt as defined in PCIe Base Specification"
+  },
+  {
+    "term": "N/A",
+    "alias": null,
+    "definition_en": "Not Applicable"
+  },
+  {
+    "term": "Native Width",
+    "alias": null,
+    "definition_en": "This is the maximum possible expected negotiated link width."
+  },
+  {
+    "term": "NDR",
+    "alias": null,
+    "definition_en": "No Data Response"
+  },
+  {
+    "term": "NG",
+    "alias": null,
+    "definition_en": "Number of Groups"
+  },
+  {
+    "term": "NIB",
+    "alias": null,
+    "definition_en": "Number of Bitmap Entries"
+  },
+  {
+    "term": "NIW",
+    "alias": null,
+    "definition_en": "Number of Interleave Ways"
+  },
+  {
+    "term": "NOP",
+    "alias": null,
+    "definition_en": "No Operation"
+  },
+  {
+    "term": "NT",
+    "alias": null,
+    "definition_en": "Non-Temporal"
+  },
+  {
+    "term": "NVM",
+    "alias": null,
+    "definition_en": "Non-volatile Memory"
+  },
+  {
+    "term": "NXM",
+    "alias": null,
+    "definition_en": "Non-existent Memory"
+  },
+  {
+    "term": "OBFF",
+    "alias": null,
+    "definition_en": "Optimized Buffer Flush/Fill as defined in PCIe Base Specification"
+  },
+  {
+    "term": "OHC",
+    "alias": null,
+    "definition_en": "Orthogonal Header Content as defined in PCIe Base Specification"
+  },
+  {
+    "term": "OOB",
+    "alias": null,
+    "definition_en": "Out of Band"
+  },
+  {
+    "term": "_OSC",
+    "alias": null,
+    "definition_en": "Operating System Capabilities as defined in ACPI Specification"
+  },
+  {
+    "term": "OSCKID",
+    "alias": null,
+    "definition_en": "CKID memory encryption key configured for use with non-TEE data."
+  },
+  {
+    "term": "OSPM",
+    "alias": null,
+    "definition_en": "Operating System-directed configuration and Power Management as defined in ACPI Specification"
+  },
+  {
+    "term": "PA",
+    "alias": null,
+    "definition_en": "Physical Address"
+  },
+  {
+    "term": "P2P",
+    "alias": null,
+    "definition_en": "Peer to peer"
+  },
+  {
+    "term": "PBR",
+    "alias": null,
+    "definition_en": "Port Based Routing"
+  },
+  {
+    "term": "PBR link",
+    "alias": null,
+    "definition_en": "Link where all flits are in PBR format"
+  },
+  {
+    "term": "PBR switch",
+    "alias": null,
+    "definition_en": "Switch that supports PBR and has PBR enabled"
+  },
+  {
+    "term": "P/C",
+    "alias": null,
+    "definition_en": "Producer-Consumer"
+  },
+  {
+    "term": "PCIe",
+    "alias": null,
+    "definition_en": "PCI Express"
+  },
+  {
+    "term": "PCRC",
+    "alias": null,
+    "definition_en": "CRC-32 calculated on the flit plaintext content. Encrypted PCRC is used to provide robustness against hard and soft faults internal to the encryption and decryption engines."
+  },
+  {
+    "term": "PDM",
+    "alias": null,
+    "definition_en": "Private Device memory. Device-attached memory that is not mapped to system address space or directly accessible to Host as cacheable memory. Memory located on PCIe devices is of this type. Memory located on a CXL device can be mapped as either PDM or HDM."
+  },
+  {
+    "term": "Peer",
+    "alias": null,
+    "definition_en": "Peer device in the context of peer-to-peer (P2P) accesses between devices."
+  },
+  {
+    "term": "Persistent Memory Device",
+    "alias": null,
+    "definition_en": "Device that retains content across power cycling. A CXL Memory device can advertise “Persistent Memory” capability as long as it supports the minimum set of requirements described in Section 8.2.10.9. The platform owns the final responsibility of determining whether a memory device can be used as Persistent Memory. This determination is beyond the scope of CXL specification."
+  },
+  {
+    "term": "PI",
+    "alias": null,
+    "definition_en": "Programming Interface as defined in PCIe Base Specification"
+  },
+  {
+    "term": "PID",
+    "alias": null,
+    "definition_en": "PBR ID"
+  },
+  {
+    "term": "PIF",
+    "alias": null,
+    "definition_en": "PID Forward"
+  },
+  {
+    "term": "PLDM",
+    "alias": null,
+    "definition_en": "Platform-Level Data Model"
+  },
+  {
+    "term": "PM",
+    "alias": null,
+    "definition_en": "Power Management"
+  },
+  {
+    "term": "PME",
+    "alias": null,
+    "definition_en": "Power Management Event"
+  },
+  {
+    "term": "PM2IP",
+    "alias": null,
+    "definition_en": "(Master) Power Manager to Independent Power Manager, PM messages from the host to the device."
+  },
+  {
+    "term": "PPB",
+    "alias": null,
+    "definition_en": "PCI-to-PCI Bridge inside a CXL switch that is FM-owned. The port connected to a PPB can be disconnected, or connected to a PCIe component or connected to a CXL component."
+  },
+  {
+    "term": "PPR",
+    "alias": null,
+    "definition_en": "Post Package Repair"
+  },
+  {
+    "term": "PrimarySession",
+    "alias": null,
+    "definition_en": "CMA/SPDM session established between the TSM or TSM RoT and the DSM. Utilized for configuring and locking the device and setting and clearing memory encryption keys using TSP."
+  },
+  {
+    "term": "PSK",
+    "alias": null,
+    "definition_en": "CMA/SPDM-defined pre-shared key."
+  },
+  {
+    "term": "PTH",
+    "alias": null,
+    "definition_en": "PBR TLP Header"
+  },
+  {
+    "term": "QoS",
+    "alias": null,
+    "definition_en": "Quality of Service"
+  },
+  {
+    "term": "QTG",
+    "alias": null,
+    "definition_en": "QoS Throttling Group, the group of CXL.mem target resources that are throttled together in response to QoS telemetry (see Section 3.3.3). Each QTG is identified using a number that is known as QTG ID. QTG ID is a positive integer."
+  },
+  {
+    "term": "Rank",
+    "alias": null,
+    "definition_en": "Set of memory devices on a channel that together execute a transaction."
+  },
+  {
+    "term": "RAS",
+    "alias": null,
+    "definition_en": "Reliability Availability and Serviceability"
+  },
+  {
+    "term": "RC",
+    "alias": null,
+    "definition_en": "Root Complex"
+  },
+  {
+    "term": "RCD",
+    "alias": null,
+    "definition_en": "Shorthand for a Device that is operating in RCD mode (formerly known as CXL 1.1 Device)"
+  },
+  {
+    "term": "RCD mode",
+    "alias": null,
+    "definition_en": "Restricted CXL Device mode (formerly known as CXL 1.1 mode). The CXL operating mode with a number of restrictions. These restrictions include lack of Hot-Plug support and 68B Flit mode being the only supported flit mode. See Section 9.11.1 for the complete list of these restrictions."
+  },
+  {
+    "term": "RCEC",
+    "alias": null,
+    "definition_en": "Root Complex Event Collector, collects errors from PCIe RCiEPs, as defined in PCIe Base Specification."
+  },
+  {
+    "term": "RCH",
+    "alias": null,
+    "definition_en": "Restricted CXL Host. CXL Host that is operating in RCD mode (formerly known as CXL 1.1 Host)."
+  },
+  {
+    "term": "RCiEP",
+    "alias": null,
+    "definition_en": "Root Complex Integrated Endpoint"
+  },
+  {
+    "term": "RCRB",
+    "alias": null,
+    "definition_en": "Root Complex Register Block as defined in PCIe Base Specification"
+  },
+  {
+    "term": "RCS",
+    "alias": null,
+    "definition_en": "Requestor Cache State – The cache coherency state tracked by the host or initiator"
+  },
+  {
+    "term": "RDPAS",
+    "alias": null,
+    "definition_en": "RCEC Downstream Port Association Structure"
+  },
+  {
+    "term": "Reserved",
+    "alias": null,
+    "definition_en": "The contents, states, or information are not defined at this time. Reserved register fields must be read only and must return 0 (all 0s for multi-bit fields) when read. Reserved encodings for register and packet fields must not be used. Any implementation dependent on a Reserved field value or encoding will result in an implementation that is not CXL-spec compliant. The functionality of such an implementation cannot be guaranteed in this or any future revision of this specification. Flit, Slot, and message reserved bits should be cleared to 0 by the sender and the receiver should ignore them."
+  },
+  {
+    "term": "RFM",
+    "alias": null,
+    "definition_en": "Refresh Management"
+  },
+  {
+    "term": "RGT",
+    "alias": null,
+    "definition_en": "Routing Group Table"
+  },
+  {
+    "term": "RP",
+    "alias": null,
+    "definition_en": "Root Port"
+  },
+  {
+    "term": "RPID",
+    "alias": null,
+    "definition_en": "Requester PID. In the context of a GFD, the SPID from an incoming request."
+  },
+  {
+    "term": "RRS",
+    "alias": null,
+    "definition_en": "Request Retry Status"
+  },
+  {
+    "term": "RRSM",
+    "alias": null,
+    "definition_en": "Remote Retry State Machine"
+  },
+  {
+    "term": "RSDT",
+    "alias": null,
+    "definition_en": "Root System Description Table as defined in ACPI Specification"
+  },
+  {
+    "term": "RSVD or RV",
+    "alias": null,
+    "definition_en": "Reserved"
+  },
+  {
+    "term": "RT",
+    "alias": null,
+    "definition_en": "Route Table"
+  },
+  {
+    "term": "RTT",
+    "alias": null,
+    "definition_en": "Round-Trip Time"
+  },
+  {
+    "term": "RwD",
+    "alias": null,
+    "definition_en": "Request with Data"
+  },
+  {
+    "term": "S2M",
+    "alias": null,
+    "definition_en": "Subordinate to Master"
+  },
+  {
+    "term": "SAT",
+    "alias": null,
+    "definition_en": "SPID Access Table"
+  },
+  {
+    "term": "SBR",
+    "alias": null,
+    "definition_en": "Secondary Bus Reset as defined in PCIe Base Specification"
+  },
+  {
+    "term": "SCC",
+    "alias": null,
+    "definition_en": "Sub-Class Code as defined in PCIe Base Specification"
+  },
+  {
+    "term": "SDC",
+    "alias": null,
+    "definition_en": "Silent Data Corruption"
+  },
+  {
+    "term": "SDS",
+    "alias": null,
+    "definition_en": "Start of Data Stream"
+  },
+  {
+    "term": "SecondarySession",
+    "alias": null,
+    "definition_en": "One or more optional CMA/SPDM sessions established between a host entity and the DSM. Utilized for setting and clearing memory encryption keys using TSP."
+  },
+  {
+    "term": "Selective Trust",
+    "alias": null,
+    "definition_en": "Security model in which each TEE selects which devices it shall include in its TCB. The device trusted by one TEE may not be trusted by other TEEs within the system."
+  },
+  {
+    "term": "SF",
+    "alias": null,
+    "definition_en": "Snoop Filter"
+  },
+  {
+    "term": "SFSC",
+    "alias": null,
+    "definition_en": "Security Features for SCSI Commands"
+  },
+  {
+    "term": "Sharer",
+    "alias": null,
+    "definition_en": "Entity that is sharing data with another entity."
+  },
+  {
+    "term": "SHDA",
+    "alias": null,
+    "definition_en": "Single Host, Direct Attached SLD EP"
+  },
+  {
+    "term": "SH-MLD",
+    "alias": null,
+    "definition_en": "Single headed MLD. CXL component that contains a single CXL port, presenting an MLD."
+  },
+  {
+    "term": "SH-SLD",
+    "alias": null,
+    "definition_en": "Single Headed Single Logical Device CXL component that contains a single CXL port, presenting an SLD."
+  },
+  {
+    "term": "SHSW",
+    "alias": null,
+    "definition_en": "Single Host, Switch Attached SLD EP"
+  },
+  {
+    "term": "SHSW-FM",
+    "alias": null,
+    "definition_en": "Single Host, Fabric Managed, Switch Attached SLD EP"
+  },
+  {
+    "term": "Sideband",
+    "alias": null,
+    "definition_en": "Signal used for device detection, configuration, and Hot-Plug in PCIe connectors, as defined in PCIe Base Specification"
+  },
+  {
+    "term": "SLD",
+    "alias": null,
+    "definition_en": "Single Logical Device"
+  },
+  {
+    "term": "Smart I/O",
+    "alias": null,
+    "definition_en": "Enhanced I/O with additional protocol support."
+  },
+  {
+    "term": "SP",
+    "alias": null,
+    "definition_en": "Security Protocol"
+  },
+  {
+    "term": "SPDM",
+    "alias": null,
+    "definition_en": "Security Protocol and Data Model"
+  },
+  {
+    "term": "SPDM over DOE",
+    "alias": null,
+    "definition_en": "Security Protocol and Data Model over Data Object Exchange as defined in PCIe Base Specification"
+  },
+  {
+    "term": "SPID",
+    "alias": null,
+    "definition_en": "Source PID"
+  },
+  {
+    "term": "sPPR",
+    "alias": null,
+    "definition_en": "Soft Post Package Repair"
+  },
+  {
+    "term": "SRAT",
+    "alias": null,
+    "definition_en": "System Resource Affinity Table as defined in ACPI Specification"
+  },
+  {
+    "term": "SRIS",
+    "alias": null,
+    "definition_en": "Separate Reference Clocks with Independent Spread Spectrum Clocking as defined in PCIe Base Specification"
+  },
+  {
+    "term": "SV",
+    "alias": null,
+    "definition_en": "Secret Value"
+  },
+  {
+    "term": "SVM",
+    "alias": null,
+    "definition_en": "Shared Virtual Memory"
+  },
+  {
+    "term": "SW",
+    "alias": null,
+    "definition_en": "Software"
+  },
+  {
+    "term": "Target",
+    "alias": null,
+    "definition_en": "Defined by TSP as a memory expander device that receives TSP requests."
+  },
+  {
+    "term": "TC",
+    "alias": null,
+    "definition_en": "Traffic Class"
+  },
+  {
+    "term": "TCB",
+    "alias": null,
+    "definition_en": "Trusted Computing Base - refers to the set of hardware, software and/or firmware entities that security assurances depend upon"
+  },
+  {
+    "term": "TDISP",
+    "alias": null,
+    "definition_en": "PCI-SIG-defined TEE Device Interface Security Protocol"
+  },
+  {
+    "term": "TEE",
+    "alias": null,
+    "definition_en": "Trusted Execution Environment"
+  },
+  {
+    "term": "TEE Intent",
+    "alias": null,
+    "definition_en": "TEE or non-TEE intent of a memory request from an initiator defined by the opcodes utilized in the transaction."
+  },
+  {
+    "term": "TE State",
+    "alias": null,
+    "definition_en": "TEE Exclusive State maintained by the device for each page or cacheline to enforce access control."
+  },
+  {
+    "term": "TLP",
+    "alias": null,
+    "definition_en": "Transaction Layer Packet as defined in PCIe Base Specification"
+  },
+  {
+    "term": "TMAC",
+    "alias": null,
+    "definition_en": "Truncated Message Authentication Code"
+  },
+  {
+    "term": "TRP",
+    "alias": null,
+    "definition_en": "Trailer Present"
+  },
+  {
+    "term": "TSM",
+    "alias": null,
+    "definition_en": "TEE Security Manager. Logical entity within a host processor that is the TCB for a TVM and enforces security policies on the host."
+  },
+  {
+    "term": "TSM RoT",
+    "alias": null,
+    "definition_en": "TEE Security Manager Root of Trust. The entity on the host that establishes the CMA/SPDM PrimarySession."
+  },
+  {
+    "term": "TSP",
+    "alias": null,
+    "definition_en": "CXL-defined TEE Security Protocol. The collection of requirements and interfaces that allow memory devices to be utilized for confidential computing."
+  },
+  {
+    "term": "TVM",
+    "alias": null,
+    "definition_en": "TEE Virtual Machine. A TEE that has the property of a virtual machine. A TVM does not need to trust the hypervisor that hosts the TVM."
+  },
+  {
+    "term": "TVMCKID",
+    "alias": null,
+    "definition_en": "CKID memory encryption key configured for use with TEE data."
+  },
+  {
+    "term": "UEFI",
+    "alias": null,
+    "definition_en": "Unified Extensible Firmware Interface"
+  },
+  {
+    "term": "UIE",
+    "alias": null,
+    "definition_en": "Uncorrectable Internal Error"
+  },
+  {
+    "term": "UIG",
+    "alias": null,
+    "definition_en": "Upstream Interleave Granularity"
+  },
+  {
+    "term": "UIO",
+    "alias": null,
+    "definition_en": "Unordered Input/Output"
+  },
+  {
+    "term": "UIW",
+    "alias": null,
+    "definition_en": "Upstream Interleave Ways"
+  },
+  {
+    "term": "Upstream Port",
+    "alias": null,
+    "definition_en": "Physical port that can be an upstream switch port, or an Endpoint port, or an RCD Upstream Port."
+  },
+  {
+    "term": "UQID",
+    "alias": null,
+    "definition_en": "Unique Queue ID"
+  },
+  {
+    "term": "UR",
+    "alias": null,
+    "definition_en": "Unsupported Request"
+  },
+  {
+    "term": "USAR",
+    "alias": null,
+    "definition_en": "Upstream Acceptance Rules"
+  },
+  {
+    "term": "USP",
+    "alias": null,
+    "definition_en": "Upstream Switch Port"
+  },
+  {
+    "term": "UTC",
+    "alias": null,
+    "definition_en": "Coordinated Universal Time"
+  },
+  {
+    "term": "UUID",
+    "alias": null,
+    "definition_en": "Universally Unique IDentifier as defined in the IETF RFC 4122 Specification"
+  },
+  {
+    "term": "VA",
+    "alias": null,
+    "definition_en": "Virtual Address"
+  },
+  {
+    "term": "VC",
+    "alias": null,
+    "definition_en": "Virtual Channel"
+  },
+  {
+    "term": "VCS",
+    "alias": null,
+    "definition_en": "Virtual CXL Switch. Includes entities within the physical switch belonging to a single VH. It is identified using the VCS ID."
+  },
+  {
+    "term": "VDM",
+    "alias": null,
+    "definition_en": "Vendor Defined Message"
+  },
+  {
+    "term": "vDSP",
+    "alias": null,
+    "definition_en": "Downstream vPPB in a Host ES that is bound to one vUSP within a specific Downstream ES."
+  },
+  {
+    "term": "VH",
+    "alias": null,
+    "definition_en": "Virtual Hierarchy. Everything from the CXL RP down, including the CXL RP, CXL PPBs, and CXL Endpoints. Hierarchy ID means the same as PCIe."
+  },
+  {
+    "term": "VH Mode",
+    "alias": null,
+    "definition_en": "A mode of operation where CXL RP is the root of the hierarchy"
+  },
+  {
+    "term": "VID",
+    "alias": null,
+    "definition_en": "Vendor ID"
+  },
+  {
+    "term": "vLSM",
+    "alias": null,
+    "definition_en": "Virtual Link State Machine"
+  },
+  {
+    "term": "VM",
+    "alias": null,
+    "definition_en": "Virtual Machine"
+  },
+  {
+    "term": "VMM",
+    "alias": null,
+    "definition_en": "Virtual Machine Manager"
+  },
+  {
+    "term": "vPPB",
+    "alias": null,
+    "definition_en": "Virtual PCI-to-PCI Bridge inside a CXL switch that is host-owned. Can be bound to a port that is either disconnected, connected to a PCIe component or connected to a CXL component."
+  },
+  {
+    "term": "VTV",
+    "alias": null,
+    "definition_en": "VendPrefixL0 Target Vector"
+  },
+  {
+    "term": "vUSP",
+    "alias": null,
+    "definition_en": "Upstream vPPB in a Downstream ES that is bound to one vDSP within a specific Host ES."
+  },
+  {
+    "term": "Warm Reset",
+    "alias": null,
+    "definition_en": "As defined in PCIe Base Specification"
+  },
+  {
+    "term": "XSDT",
+    "alias": null,
+    "definition_en": "Extended System Description Table as defined in ACPI Specification"
+  }
+]

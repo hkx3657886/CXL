@@ -1,0 +1,182 @@
+[
+  {
+    "id": "00_cover",
+    "title": "Cover and Notices",
+    "title_zh": "封面与声明",
+    "start": 1,
+    "end": 2,
+    "pages": 2,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_00_cover.pdf"
+  },
+  {
+    "id": "00_contents",
+    "title": "Contents, Figures, and Tables",
+    "title_zh": "目录、图目录与表目录",
+    "start": 3,
+    "end": 43,
+    "pages": 41,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_00_contents.pdf"
+  },
+  {
+    "id": "00_revision_history",
+    "title": "Revision History",
+    "title_zh": "修订历史",
+    "start": 44,
+    "end": 49,
+    "pages": 6,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_00_revision_history.pdf"
+  },
+  {
+    "id": "01_Introduction",
+    "title": "1.0 Introduction",
+    "title_zh": "1.0 导论",
+    "start": 50,
+    "end": 70,
+    "pages": 21,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_01_Introduction.pdf"
+  },
+  {
+    "id": "02_CXL_System_Architecture",
+    "title": "2.0 CXL System Architecture",
+    "title_zh": "2.0 CXL 系统架构",
+    "start": 71,
+    "end": 84,
+    "pages": 14,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_02_CXL_System_Architecture.pdf"
+  },
+  {
+    "id": "03_CXL_Transaction_Layer",
+    "title": "3.0 CXL Transaction Layer",
+    "title_zh": "3.0 CXL 事务层",
+    "start": 85,
+    "end": 190,
+    "pages": 106,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_03_CXL_Transaction_Layer.pdf"
+  },
+  {
+    "id": "04_CXL_Link_Layers",
+    "title": "4.0 CXL Link Layers",
+    "title_zh": "4.0 CXL 链路层",
+    "start": 191,
+    "end": 261,
+    "pages": 71,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_04_CXL_Link_Layers.pdf"
+  },
+  {
+    "id": "05_CXL_ARB_MUX",
+    "title": "5.0 CXL ARB/MUX",
+    "title_zh": "5.0 CXL ARB/MUX",
+    "start": 262,
+    "end": 286,
+    "pages": 25,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_05_CXL_ARB_MUX.pdf"
+  },
+  {
+    "id": "06_Flex_Bus_Physical_Layer",
+    "title": "6.0 Flex Bus Physical Layer",
+    "title_zh": "6.0 Flex Bus 物理层",
+    "start": 287,
+    "end": 318,
+    "pages": 32,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_06_Flex_Bus_Physical_Layer.pdf"
+  },
+  {
+    "id": "07_Switching",
+    "title": "7.0 Switching",
+    "title_zh": "7.0 交换",
+    "start": 319,
+    "end": 498,
+    "pages": 180,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_07_Switching.pdf"
+  },
+  {
+    "id": "08_Control_and_Status_Registers",
+    "title": "8.0 Control and Status Registers",
+    "title_zh": "8.0 控制与状态寄存器",
+    "start": 499,
+    "end": 798,
+    "pages": 300,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_08_Control_and_Status_Registers.pdf"
+  },
+  {
+    "id": "09_Reset_Initialization_Configuration_and_Manageability",
+    "title": "9.0 Reset, Initialization, Configuration, and Manageability",
+    "title_zh": "9.0 复位、初始化、配置与可管理性",
+    "start": 799,
+    "end": 878,
+    "pages": 80,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_09_Reset_Initialization_Configuration_and_Manageability.pdf"
+  },
+  {
+    "id": "10_Power_Management",
+    "title": "10.0 Power Management",
+    "title_zh": "10.0 电源管理",
+    "start": 879,
+    "end": 891,
+    "pages": 13,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_10_Power_Management.pdf"
+  },
+  {
+    "id": "11_CXL_Security",
+    "title": "11.0 CXL Security",
+    "title_zh": "11.0 CXL 安全",
+    "start": 892,
+    "end": 997,
+    "pages": 106,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_11_CXL_Security.pdf"
+  },
+  {
+    "id": "12_Reliability_Availability_and_Serviceability",
+    "title": "12.0 Reliability, Availability, and Serviceability",
+    "title_zh": "12.0 可靠性、可用性与可服务性",
+    "start": 998,
+    "end": 1010,
+    "pages": 13,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_12_Reliability_Availability_and_Serviceability.pdf"
+  },
+  {
+    "id": "13_Performance_Considerations",
+    "title": "13.0 Performance Considerations",
+    "title_zh": "13.0 性能考虑",
+    "start": 1011,
+    "end": 1019,
+    "pages": 9,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_13_Performance_Considerations.pdf"
+  },
+  {
+    "id": "14_CXL_Compliance_Testing",
+    "title": "14.0 CXL Compliance Testing",
+    "title_zh": "14.0 CXL 合规测试",
+    "start": 1020,
+    "end": 1211,
+    "pages": 192,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_14_CXL_Compliance_Testing.pdf"
+  },
+  {
+    "id": "AppA_Taxonomy",
+    "title": "Appendix A Taxonomy",
+    "title_zh": "附录 A 分类法",
+    "start": 1212,
+    "end": 1215,
+    "pages": 4,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_AppA_Taxonomy.pdf"
+  },
+  {
+    "id": "AppB_UIO_P2P_HDM_DB",
+    "title": "Appendix B Unordered I/O to Support Peer-to-Peer Directly to HDM-DB",
+    "title_zh": "附录 B 无序 I/O 支持到 HDM-DB 的点对点",
+    "start": 1216,
+    "end": 1216,
+    "pages": 1,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_AppB_UIO_P2P_HDM_DB.pdf"
+  },
+  {
+    "id": "AppC_Memory_Protocol_Tables",
+    "title": "Appendix C Memory Protocol Tables",
+    "title_zh": "附录 C 内存协议表",
+    "start": 1217,
+    "end": 1233,
+    "pages": 17,
+    "en_pdf": "/workspace/output/chapters_en/CXL_r3.2_Ch_AppC_Memory_Protocol_Tables.pdf"
+  }
+]

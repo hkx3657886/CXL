@@ -1,0 +1,4 @@
+output/chapters_bilingual/
+output/chapters_en/
+**/__pycache__/
+*.partial.pdf
