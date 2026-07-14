@@ -1,0 +1,102 @@
+[
+  {
+    "id": "00_cover",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_00_cover_中英对照.pdf"
+  },
+  {
+    "id": "00_contents",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_00_contents_中英对照.pdf"
+  },
+  {
+    "id": "00_revision_history",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_00_revision_history_中英对照.pdf"
+  },
+  {
+    "id": "01_Introduction",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_01_Introduction_中英对照.pdf"
+  },
+  {
+    "id": "02_CXL_System_Architecture",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_02_CXL_System_Architecture_中英对照.pdf"
+  },
+  {
+    "id": "03_CXL_Transaction_Layer",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_03_CXL_Transaction_Layer_中英对照.pdf"
+  },
+  {
+    "id": "04_CXL_Link_Layers",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_04_CXL_Link_Layers_中英对照.pdf"
+  },
+  {
+    "id": "05_CXL_ARB_MUX",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_05_CXL_ARB_MUX_中英对照.pdf"
+  },
+  {
+    "id": "06_Flex_Bus_Physical_Layer",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_06_Flex_Bus_Physical_Layer_中英对照.pdf"
+  },
+  {
+    "id": "07_Switching",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_07_Switching_中英对照.pdf"
+  },
+  {
+    "id": "08_Control_and_Status_Registers",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_08_Control_and_Status_Registers_中英对照.pdf"
+  },
+  {
+    "id": "09_Reset_Initialization_Configuration_and_Manageability",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_09_Reset_Initialization_Configuration_and_Manageability_中英对照.pdf"
+  },
+  {
+    "id": "10_Power_Management",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_10_Power_Management_中英对照.pdf"
+  },
+  {
+    "id": "11_CXL_Security",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_11_CXL_Security_中英对照.pdf"
+  },
+  {
+    "id": "12_Reliability_Availability_and_Serviceability",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_12_Reliability_Availability_and_Serviceability_中英对照.pdf"
+  },
+  {
+    "id": "13_Performance_Considerations",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_13_Performance_Considerations_中英对照.pdf"
+  },
+  {
+    "id": "14_CXL_Compliance_Testing",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_14_CXL_Compliance_Testing_中英对照.pdf"
+  },
+  {
+    "id": "AppA_Taxonomy",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_AppA_Taxonomy_中英对照.pdf"
+  },
+  {
+    "id": "AppB_UIO_P2P_HDM_DB",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_AppB_UIO_P2P_HDM_DB_中英对照.pdf"
+  },
+  {
+    "id": "AppC_Memory_Protocol_Tables",
+    "ok": true,
+    "path": "/workspace/output/chapters_bilingual/CXL_r3.2_AppC_Memory_Protocol_Tables_中英对照.pdf"
+  }
+]
