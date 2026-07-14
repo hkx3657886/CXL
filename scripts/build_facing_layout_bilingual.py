@@ -15,6 +15,7 @@ import re
 import time
 import traceback
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
 from pathlib import Path
 
 import fitz
@@ -54,11 +55,16 @@ def ensure_font() -> str:
 
 
 class Translator:
-    def __init__(self):
+    def __init__(self, timeout_s: float = 20.0):
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
         self.gt = GoogleTranslator(source="en", target="zh-CN")
         self.hits = 0
         self.misses = 0
+        self.timeout_s = timeout_s
+        self._pool = ThreadPoolExecutor(max_workers=1)
+
+    def _call_gt(self, part: str) -> str:
+        return self.gt.translate(part)
 
     def translate(self, text: str) -> str:
         text = re.sub(r"\s+", " ", text).strip()
@@ -80,9 +86,21 @@ class Translator:
             zh = None
             for attempt in range(5):
                 try:
-                    zh = self.gt.translate(part)
+                    fut = self._pool.submit(self._call_gt, part)
+                    zh = fut.result(timeout=self.timeout_s)
                     break
-                except Exception:
+                except FuturesTimeout:
+                    print(f"    translate timeout ({self.timeout_s}s), retry {attempt+1}/5", flush=True)
+                    # recreate translator + pool (old worker may still be hung)
+                    try:
+                        self._pool.shutdown(wait=False, cancel_futures=True)
+                    except TypeError:
+                        self._pool.shutdown(wait=False)
+                    self._pool = ThreadPoolExecutor(max_workers=1)
+                    self.gt = GoogleTranslator(source="en", target="zh-CN")
+                    time.sleep(1.0 * (attempt + 1))
+                except Exception as e:
+                    print(f"    translate err: {type(e).__name__}: {e}", flush=True)
                     time.sleep(1.2 * (attempt + 1))
             if zh is None:
                 zh = text
@@ -314,14 +332,59 @@ def add_cover(out_doc: fitz.Document, chapter: dict, fontfile: str):
         y += size + 12
 
 
+def expected_out_pages(chapter: dict) -> int:
+    """Cover + (EN+ZH) per source page; passthrough is cover + source pages."""
+    if chapter["id"] in PASSTHROUGH_IDS:
+        return 1 + chapter["pages"]
+    return 1 + chapter["pages"] * 2
+
+
 def build_chapter(chapter: dict, src: fitz.Document, translator: Translator, fontfile: str) -> Path:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
     out_path = OUT_DIR / f"CXL_r3.2_{chapter['id']}_中英对照.pdf"
+    partial = out_path.with_suffix(".partial.pdf")
     print(f"\n=== {chapter['id']} ({chapter['pages']}p) → facing layout ===", flush=True)
 
+    # Skip if final already complete
+    if out_path.exists():
+        try:
+            done = fitz.open(str(out_path))
+            n = done.page_count
+            done.close()
+            if n >= expected_out_pages(chapter):
+                print(f"  skip existing complete {out_path.name} pages={n}", flush=True)
+                art = ARTIFACT_DIR / out_path.name
+                if not art.exists() or art.stat().st_size != out_path.stat().st_size:
+                    art.write_bytes(out_path.read_bytes())
+                return out_path
+        except Exception:
+            pass
+
     out = fitz.open()
-    add_cover(out, chapter, fontfile)
+    resume_local = 1  # first source page index within chapter (1-based)
+
+    if chapter["id"] not in PASSTHROUGH_IDS and partial.exists():
+        try:
+            prev = fitz.open(str(partial))
+            # cover(1) + 2 pages per completed source page
+            completed = max(0, (prev.page_count - 1) // 2)
+            if completed > 0:
+                out.insert_pdf(prev)
+                resume_local = completed + 1
+                print(
+                    f"  resume from partial pages={prev.page_count} "
+                    f"→ continue at [{resume_local}/{chapter['pages']}]",
+                    flush=True,
+                )
+            prev.close()
+        except Exception:
+            traceback.print_exc()
+            out = fitz.open()
+            resume_local = 1
+
+    if out.page_count == 0:
+        add_cover(out, chapter, fontfile)
 
     if chapter["id"] in PASSTHROUGH_IDS:
         out.insert_pdf(src, from_page=chapter["start"] - 1, to_page=chapter["end"] - 1)
@@ -330,7 +393,7 @@ def build_chapter(chapter: dict, src: fitz.Document, translator: Translator, fon
         print(f"  passthrough saved {out_path.name}", flush=True)
         return out_path
 
-    for abs_p in range(chapter["start"], chapter["end"] + 1):
+    for abs_p in range(chapter["start"] + resume_local - 1, chapter["end"] + 1):
         local = abs_p - chapter["start"] + 1
         print(f"  [{local}/{chapter['pages']}] p{abs_p}", flush=True)
         try:
@@ -341,8 +404,7 @@ def build_chapter(chapter: dict, src: fitz.Document, translator: Translator, fon
             out.insert_pdf(src, from_page=abs_p - 1, to_page=abs_p - 1)
             out.insert_pdf(src, from_page=abs_p - 1, to_page=abs_p - 1)
 
-        if local % 20 == 0:
-            partial = out_path.with_suffix(".partial.pdf")
+        if local % 20 == 0 or local == chapter["pages"]:
             tmp = fitz.open()
             tmp.insert_pdf(out)
             tmp.save(str(partial), deflate=True, garbage=3)
@@ -351,6 +413,11 @@ def build_chapter(chapter: dict, src: fitz.Document, translator: Translator, fon
 
     out.save(str(out_path), deflate=True, garbage=3)
     out.close()
+    if partial.exists():
+        try:
+            partial.unlink()
+        except OSError:
+            pass
     art = ARTIFACT_DIR / out_path.name
     art.write_bytes(out_path.read_bytes())
     print(
@@ -368,7 +435,7 @@ def main(selected: list[str] | None = None):
         want = set(selected)
         chapters = [c for c in chapters if c["id"] in want]
     src = fitz.open(str(SRC_PDF))
-    translator = Translator()
+    translator = Translator(timeout_s=20.0)
     results = []
     for ch in chapters:
         try:
